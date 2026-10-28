@@ -1,109 +1,124 @@
-// Real catalogue data extracted from official 2026 catalogue PDF
+// Official 2026 Catalogue Drawings and Products
 export const fallbackCategories = [
   {
     "name": "Aluminium Flat Bars",
     "slug": "flat-bars",
-    "image": "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_flat-bars.png",
     "description": "Solid architectural & structural flat bars for fabrication, busbars, and machinery.",
-    "displayOrder": 1
+    "displayOrder": 1,
+    "drawingImage": "/drawings/cat_flat-bars.png"
   },
   {
     "name": "Aluminium Round Bars",
     "slug": "round-bars-rods",
-    "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_round-bars-rods.png",
     "description": "Extruded solid round rods for precision CNC turning, threading, and engineering pins.",
-    "displayOrder": 2
+    "displayOrder": 2,
+    "drawingImage": "/drawings/cat_round-bars-rods.png"
   },
   {
     "name": "Aluminium Square Bars",
     "slug": "square-bars",
-    "image": "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_square-bars.png",
     "description": "Square & hexagonal solid extruded bars for tooling, brackets, and machined fixtures.",
-    "displayOrder": 3
+    "displayOrder": 3,
+    "drawingImage": "/drawings/cat_square-bars.png"
   },
   {
     "name": "Aluminium Angles",
     "slug": "angles",
-    "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_angles.png",
     "description": "Structural 90-degree L-angles in equal and unequal flanges for frame stiffeners and brackets.",
-    "displayOrder": 4
+    "displayOrder": 4,
+    "drawingImage": "/drawings/cat_angles.png"
   },
   {
     "name": "Aluminium U-Channels",
     "slug": "u-channels",
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_u-channels.png",
     "description": "Architectural U-channels, glass partition tracks, and structural C-sections.",
-    "displayOrder": 5
+    "displayOrder": 5,
+    "drawingImage": "/drawings/cat_u-channels.png"
   },
   {
     "name": "Aluminium Rectangle Tubes",
     "slug": "rectangle-tubes",
-    "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_rectangle-tubes.png",
     "description": "Hollow rectangular box sections (RHS) for pergolas, louvers, railings, and framing.",
-    "displayOrder": 6
+    "displayOrder": 6,
+    "drawingImage": "/drawings/cat_rectangle-tubes.png"
   },
   {
     "name": "Aluminium Round Tubes & Pipes",
     "slug": "pipes-tubes",
-    "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_pipes-tubes.png",
     "description": "Seamless round extruded pipes and tubing for fluid lines, flagpoles, and furniture.",
-    "displayOrder": 7
+    "displayOrder": 7,
+    "drawingImage": "/drawings/cat_pipes-tubes.png"
   },
   {
     "name": "Aluminium Square Tubes",
     "slug": "square-tubes",
-    "image": "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_square-tubes.png",
     "description": "Hollow square box sections (SHS) for cleanroom cubicles, exhibition booths, and gates.",
-    "displayOrder": 8
+    "displayOrder": 8,
+    "drawingImage": "/drawings/cat_square-tubes.png"
   },
   {
     "name": "Door & Window Sections",
     "slug": "door-window-sections",
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_door-window-sections.png",
     "description": "Heavy-duty casement door profiles, bottom rails, top rails, and mullions.",
-    "displayOrder": 9
+    "displayOrder": 9,
+    "drawingImage": "/drawings/cat_door-window-sections.png"
   },
   {
     "name": "Sliding Window Sections",
     "slug": "sliding-sections",
-    "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_sliding-sections.png",
     "description": "2-Track, 3-Track, and 4-Track sliding window frames, interlocks, and shutter sections.",
-    "displayOrder": 10
+    "displayOrder": 10,
+    "drawingImage": "/drawings/cat_sliding-sections.png"
   },
   {
     "name": "Slim & Partition Profiles",
     "slug": "slim-profiles",
-    "image": "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_slim-profiles.png",
     "description": "Minimalist ultra-slim glass door frames, acoustic office partitions, and mesh tracks.",
-    "displayOrder": 11
+    "displayOrder": 11,
+    "drawingImage": "/drawings/cat_slim-profiles.png"
   },
   {
     "name": "Domal Section Systems",
     "slug": "domal-sections",
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_domal-sections.png",
     "description": "Premium 27mm & 40mm Domal European standard sliding and casement architectural systems.",
-    "displayOrder": 12
+    "displayOrder": 12,
+    "drawingImage": "/drawings/cat_domal-sections.png"
   },
   {
     "name": "Curtain Wall & Facade Systems",
     "slug": "curtain-walls",
-    "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_curtain-walls.png",
     "description": "High-rise structural glazing mullions, transoms, pressure plates, and thermal break frames.",
-    "displayOrder": 13
+    "displayOrder": 13,
+    "drawingImage": "/drawings/cat_curtain-walls.png"
   },
   {
     "name": "Railing & Balustrade Profiles",
     "slug": "railing-profiles",
-    "image": "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_railing-profiles.png",
     "description": "Continuous base shoe glass railings, handrail pipes, baluster posts, and brackets.",
-    "displayOrder": 14
+    "displayOrder": 14,
+    "drawingImage": "/drawings/cat_railing-profiles.png"
   },
   {
     "name": "Solar Mounting Profiles",
     "slug": "solar-profiles",
-    "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+    "image": "/drawings/cat_solar-profiles.png",
     "description": "Solar PV module mounting rails, mid-clamps, end-clamps, and rooftop mounting structures.",
-    "displayOrder": 15
+    "displayOrder": 15,
+    "drawingImage": "/drawings/cat_solar-profiles.png"
   }
 ];
 
@@ -115,7 +130,7 @@ export const fallbackProducts = [
     "categorySlug": "flat-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6001. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_flat-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -145,7 +160,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_flat-bars.png",
+    "catalogPage": 2
   },
   {
     "name": "Flat Bar 6002 (Karanwal Sec. 6002)",
@@ -154,7 +171,7 @@ export const fallbackProducts = [
     "categorySlug": "flat-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6002. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_flat-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -184,7 +201,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_flat-bars.png",
+    "catalogPage": 2
   },
   {
     "name": "Flat Bar 6003 (Karanwal Sec. 6003)",
@@ -193,7 +212,7 @@ export const fallbackProducts = [
     "categorySlug": "flat-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6003. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_flat-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -223,7 +242,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_flat-bars.png",
+    "catalogPage": 2
   },
   {
     "name": "Flat Bar 6004 (Karanwal Sec. 6004)",
@@ -232,7 +253,7 @@ export const fallbackProducts = [
     "categorySlug": "flat-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6004. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_flat-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -262,7 +283,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_flat-bars.png",
+    "catalogPage": 2
   },
   {
     "name": "Flat Bar 6005 (Karanwal Sec. 6005)",
@@ -271,7 +294,7 @@ export const fallbackProducts = [
     "categorySlug": "flat-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6005. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_flat-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -301,7 +324,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_flat-bars.png",
+    "catalogPage": 2
   },
   {
     "name": "Flat Bar 6006 (Karanwal Sec. 6006)",
@@ -310,7 +335,7 @@ export const fallbackProducts = [
     "categorySlug": "flat-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6006. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_flat-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -340,7 +365,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_flat-bars.png",
+    "catalogPage": 2
   },
   {
     "name": "Flat Bar 6074 (Karanwal Sec. 6074)",
@@ -349,7 +376,7 @@ export const fallbackProducts = [
     "categorySlug": "flat-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6074. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_flat-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -379,7 +406,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_flat-bars.png",
+    "catalogPage": 2
   },
   {
     "name": "Round Bar 6201 (Karanwal Sec. 6201)",
@@ -388,7 +417,7 @@ export const fallbackProducts = [
     "categorySlug": "round-bars-rods",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6201. Engineered in high-tensile 6082-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_round-bars-rods.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -418,7 +447,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_round-bars-rods.png",
+    "catalogPage": 4
   },
   {
     "name": "Round Bar 6202 (Karanwal Sec. 6202)",
@@ -427,7 +458,7 @@ export const fallbackProducts = [
     "categorySlug": "round-bars-rods",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6202. Engineered in high-tensile 6082-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_round-bars-rods.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -457,7 +488,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_round-bars-rods.png",
+    "catalogPage": 4
   },
   {
     "name": "Round Bar 6203 (Karanwal Sec. 6203)",
@@ -466,7 +499,7 @@ export const fallbackProducts = [
     "categorySlug": "round-bars-rods",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6203. Engineered in high-tensile 6082-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_round-bars-rods.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -496,7 +529,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_round-bars-rods.png",
+    "catalogPage": 4
   },
   {
     "name": "Round Bar 6204 (Karanwal Sec. 6204)",
@@ -505,7 +540,7 @@ export const fallbackProducts = [
     "categorySlug": "round-bars-rods",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6204. Engineered in high-tensile 6082-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_round-bars-rods.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -535,7 +570,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_round-bars-rods.png",
+    "catalogPage": 4
   },
   {
     "name": "Round Bar 6206 (Karanwal Sec. 6206)",
@@ -544,7 +581,7 @@ export const fallbackProducts = [
     "categorySlug": "round-bars-rods",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6206. Engineered in high-tensile 6082-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_round-bars-rods.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -574,7 +611,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_round-bars-rods.png",
+    "catalogPage": 4
   },
   {
     "name": "Round Bar 6207 (Karanwal Sec. 6207)",
@@ -583,7 +622,7 @@ export const fallbackProducts = [
     "categorySlug": "round-bars-rods",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6207. Engineered in high-tensile 6082-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_round-bars-rods.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -613,7 +652,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_round-bars-rods.png",
+    "catalogPage": 4
   },
   {
     "name": "Square Bar 6281 (Karanwal Sec. 6281)",
@@ -622,7 +663,7 @@ export const fallbackProducts = [
     "categorySlug": "square-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6281. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -652,7 +693,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_square-bars.png",
+    "catalogPage": 5
   },
   {
     "name": "Square Bar 6282 (Karanwal Sec. 6282)",
@@ -661,7 +704,7 @@ export const fallbackProducts = [
     "categorySlug": "square-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6282. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -691,7 +734,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_square-bars.png",
+    "catalogPage": 5
   },
   {
     "name": "Square Bar 6283 (Karanwal Sec. 6283)",
@@ -700,7 +745,7 @@ export const fallbackProducts = [
     "categorySlug": "square-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6283. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -730,7 +775,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_square-bars.png",
+    "catalogPage": 5
   },
   {
     "name": "Square Bar 6284 (Karanwal Sec. 6284)",
@@ -739,7 +786,7 @@ export const fallbackProducts = [
     "categorySlug": "square-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6284. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -769,7 +816,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_square-bars.png",
+    "catalogPage": 5
   },
   {
     "name": "Square Bar 6285 (Karanwal Sec. 6285)",
@@ -778,7 +827,7 @@ export const fallbackProducts = [
     "categorySlug": "square-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6285. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -808,7 +857,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_square-bars.png",
+    "catalogPage": 5
   },
   {
     "name": "Square Bar 6286 (Karanwal Sec. 6286)",
@@ -817,7 +868,7 @@ export const fallbackProducts = [
     "categorySlug": "square-bars",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6286. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-bars.png"
     ],
     "price": 295,
     "mrp": 330,
@@ -847,7 +898,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_square-bars.png",
+    "catalogPage": 5
   },
   {
     "name": "Equal / Unequal Angle 4553 (Karanwal Sec. 4553)",
@@ -856,7 +909,7 @@ export const fallbackProducts = [
     "categorySlug": "angles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4553. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_angles.png"
     ],
     "price": 1619,
     "mrp": 1861,
@@ -886,7 +939,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_angles.png",
+    "catalogPage": 8
   },
   {
     "name": "Equal / Unequal Angle 7100 (Karanwal Sec. 7100)",
@@ -895,7 +950,7 @@ export const fallbackProducts = [
     "categorySlug": "angles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7100. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_angles.png"
     ],
     "price": 368,
     "mrp": 423,
@@ -925,7 +980,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_angles.png",
+    "catalogPage": 8
   },
   {
     "name": "Equal / Unequal Angle 7101 (Karanwal Sec. 7101)",
@@ -934,7 +991,7 @@ export const fallbackProducts = [
     "categorySlug": "angles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7101. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_angles.png"
     ],
     "price": 392,
     "mrp": 450,
@@ -964,7 +1021,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_angles.png",
+    "catalogPage": 8
   },
   {
     "name": "Equal / Unequal Angle 7102 (Karanwal Sec. 7102)",
@@ -973,7 +1032,7 @@ export const fallbackProducts = [
     "categorySlug": "angles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7102. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_angles.png"
     ],
     "price": 415,
     "mrp": 477,
@@ -1003,7 +1062,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_angles.png",
+    "catalogPage": 8
   },
   {
     "name": "Equal / Unequal Angle 7103 (Karanwal Sec. 7103)",
@@ -1012,7 +1073,7 @@ export const fallbackProducts = [
     "categorySlug": "angles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7103. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_angles.png"
     ],
     "price": 439,
     "mrp": 504,
@@ -1042,7 +1103,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_angles.png",
+    "catalogPage": 8
   },
   {
     "name": "Equal / Unequal Angle 7104 (Karanwal Sec. 7104)",
@@ -1051,7 +1114,7 @@ export const fallbackProducts = [
     "categorySlug": "angles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7104. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_angles.png"
     ],
     "price": 463,
     "mrp": 532,
@@ -1081,7 +1144,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_angles.png",
+    "catalogPage": 8
   },
   {
     "name": "Equal / Unequal Angle 7201 (Karanwal Sec. 7201)",
@@ -1090,7 +1155,7 @@ export const fallbackProducts = [
     "categorySlug": "angles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7201. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_angles.png"
     ],
     "price": 392,
     "mrp": 450,
@@ -1120,7 +1185,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_angles.png",
+    "catalogPage": 8
   },
   {
     "name": "Equal / Unequal Angle 6524 (Karanwal Sec. 6524)",
@@ -1129,7 +1196,7 @@ export const fallbackProducts = [
     "categorySlug": "angles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6524. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_angles.png"
     ],
     "price": 935,
     "mrp": 1075,
@@ -1159,7 +1226,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_angles.png",
+    "catalogPage": 8
   },
   {
     "name": "Channel Section 7001 (Karanwal Sec. 7001)",
@@ -1168,7 +1237,7 @@ export const fallbackProducts = [
     "categorySlug": "u-channels",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7001. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_u-channels.png"
     ],
     "price": 392,
     "mrp": 450,
@@ -1198,7 +1267,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_u-channels.png",
+    "catalogPage": 11
   },
   {
     "name": "Channel Section 7002 (Karanwal Sec. 7002)",
@@ -1207,7 +1278,7 @@ export const fallbackProducts = [
     "categorySlug": "u-channels",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7002. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_u-channels.png"
     ],
     "price": 415,
     "mrp": 477,
@@ -1237,7 +1308,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_u-channels.png",
+    "catalogPage": 11
   },
   {
     "name": "Channel Section 7003 (Karanwal Sec. 7003)",
@@ -1246,7 +1319,7 @@ export const fallbackProducts = [
     "categorySlug": "u-channels",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7003. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_u-channels.png"
     ],
     "price": 439,
     "mrp": 504,
@@ -1276,7 +1349,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_u-channels.png",
+    "catalogPage": 11
   },
   {
     "name": "Channel Section 7004 (Karanwal Sec. 7004)",
@@ -1285,7 +1360,7 @@ export const fallbackProducts = [
     "categorySlug": "u-channels",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7004. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_u-channels.png"
     ],
     "price": 463,
     "mrp": 532,
@@ -1315,7 +1390,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_u-channels.png",
+    "catalogPage": 11
   },
   {
     "name": "Channel Section 7005 (Karanwal Sec. 7005)",
@@ -1324,7 +1401,7 @@ export const fallbackProducts = [
     "categorySlug": "u-channels",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7005. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_u-channels.png"
     ],
     "price": 486,
     "mrp": 558,
@@ -1354,7 +1431,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_u-channels.png",
+    "catalogPage": 11
   },
   {
     "name": "Channel Section 7006 (Karanwal Sec. 7006)",
@@ -1363,7 +1442,7 @@ export const fallbackProducts = [
     "categorySlug": "u-channels",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 7006. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_u-channels.png"
     ],
     "price": 510,
     "mrp": 586,
@@ -1393,7 +1472,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_u-channels.png",
+    "catalogPage": 11
   },
   {
     "name": "Channel Section 497 (Karanwal Sec. 497)",
@@ -1402,7 +1483,7 @@ export const fallbackProducts = [
     "categorySlug": "u-channels",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 497. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_u-channels.png"
     ],
     "price": 2657,
     "mrp": 3055,
@@ -1432,7 +1513,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_u-channels.png",
+    "catalogPage": 11
   },
   {
     "name": "Rectangular Tube 6326 (Karanwal Sec. 6326)",
@@ -1441,7 +1524,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6326. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 982,
     "mrp": 1129,
@@ -1471,7 +1554,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 6301 (Karanwal Sec. 6301)",
@@ -1480,7 +1565,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6301. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 392,
     "mrp": 450,
@@ -1510,7 +1595,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 6302 (Karanwal Sec. 6302)",
@@ -1519,7 +1606,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6302. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 415,
     "mrp": 477,
@@ -1549,7 +1636,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 6303 (Karanwal Sec. 6303)",
@@ -1558,7 +1647,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6303. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 439,
     "mrp": 504,
@@ -1588,7 +1677,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 6537 (Karanwal Sec. 6537)",
@@ -1597,7 +1688,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6537. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 1241,
     "mrp": 1427,
@@ -1627,7 +1718,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 6340 (Karanwal Sec. 6340)",
@@ -1636,7 +1729,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6340. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 1312,
     "mrp": 1508,
@@ -1666,7 +1759,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 6386 (Karanwal Sec. 6386)",
@@ -1675,7 +1770,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6386. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 2398,
     "mrp": 2757,
@@ -1705,7 +1800,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 6480 (Karanwal Sec. 6480)",
@@ -1714,7 +1811,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6480. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 2256,
     "mrp": 2594,
@@ -1744,7 +1841,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 4785 (Karanwal Sec. 4785)",
@@ -1753,7 +1852,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4785. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 2374,
     "mrp": 2730,
@@ -1783,7 +1882,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 4459 (Karanwal Sec. 4459)",
@@ -1792,7 +1893,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4459. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 1761,
     "mrp": 2025,
@@ -1822,7 +1923,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 4910 (Karanwal Sec. 4910)",
@@ -1831,7 +1934,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4910. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 604,
     "mrp": 694,
@@ -1861,7 +1964,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Rectangular Tube 5874 (Karanwal Sec. 5874)",
@@ -1870,7 +1975,7 @@ export const fallbackProducts = [
     "categorySlug": "rectangle-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5874. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_rectangle-tubes.png"
     ],
     "price": 2115,
     "mrp": 2432,
@@ -1900,7 +2005,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_rectangle-tubes.png",
+    "catalogPage": 12
   },
   {
     "name": "Round Tube / Pipe 6901 (Karanwal Sec. 6901)",
@@ -1909,7 +2016,7 @@ export const fallbackProducts = [
     "categorySlug": "pipes-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6901. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_pipes-tubes.png"
     ],
     "price": 392,
     "mrp": 450,
@@ -1939,7 +2046,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_pipes-tubes.png",
+    "catalogPage": 19
   },
   {
     "name": "Round Tube / Pipe 6902 (Karanwal Sec. 6902)",
@@ -1948,7 +2057,7 @@ export const fallbackProducts = [
     "categorySlug": "pipes-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6902. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_pipes-tubes.png"
     ],
     "price": 415,
     "mrp": 477,
@@ -1978,7 +2087,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_pipes-tubes.png",
+    "catalogPage": 19
   },
   {
     "name": "Round Tube / Pipe 6903 (Karanwal Sec. 6903)",
@@ -1987,7 +2098,7 @@ export const fallbackProducts = [
     "categorySlug": "pipes-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6903. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_pipes-tubes.png"
     ],
     "price": 439,
     "mrp": 504,
@@ -2017,7 +2128,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_pipes-tubes.png",
+    "catalogPage": 19
   },
   {
     "name": "Round Tube / Pipe 6904 (Karanwal Sec. 6904)",
@@ -2026,7 +2139,7 @@ export const fallbackProducts = [
     "categorySlug": "pipes-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6904. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_pipes-tubes.png"
     ],
     "price": 463,
     "mrp": 532,
@@ -2056,7 +2169,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_pipes-tubes.png",
+    "catalogPage": 19
   },
   {
     "name": "Round Tube / Pipe 6905 (Karanwal Sec. 6905)",
@@ -2065,7 +2180,7 @@ export const fallbackProducts = [
     "categorySlug": "pipes-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6905. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_pipes-tubes.png"
     ],
     "price": 486,
     "mrp": 558,
@@ -2095,7 +2210,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_pipes-tubes.png",
+    "catalogPage": 19
   },
   {
     "name": "Round Tube / Pipe 6907 (Karanwal Sec. 6907)",
@@ -2104,7 +2221,7 @@ export const fallbackProducts = [
     "categorySlug": "pipes-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6907. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_pipes-tubes.png"
     ],
     "price": 533,
     "mrp": 612,
@@ -2134,7 +2251,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_pipes-tubes.png",
+    "catalogPage": 19
   },
   {
     "name": "Round Tube / Pipe 3749 (Karanwal Sec. 3749)",
@@ -2143,7 +2262,7 @@ export const fallbackProducts = [
     "categorySlug": "pipes-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3749. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_pipes-tubes.png"
     ],
     "price": 1525,
     "mrp": 1753,
@@ -2173,7 +2292,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_pipes-tubes.png",
+    "catalogPage": 19
   },
   {
     "name": "Round Tube / Pipe 4636 (Karanwal Sec. 4636)",
@@ -2182,7 +2303,7 @@ export const fallbackProducts = [
     "categorySlug": "pipes-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4636. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_pipes-tubes.png"
     ],
     "price": 1218,
     "mrp": 1400,
@@ -2212,7 +2333,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_pipes-tubes.png",
+    "catalogPage": 19
   },
   {
     "name": "Square Box Section 6695 (Karanwal Sec. 6695)",
@@ -2221,7 +2344,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6695. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 2610,
     "mrp": 3001,
@@ -2251,7 +2374,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 6606 (Karanwal Sec. 6606)",
@@ -2260,7 +2385,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6606. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 510,
     "mrp": 586,
@@ -2290,7 +2415,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 6696 (Karanwal Sec. 6696)",
@@ -2299,7 +2426,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6696. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 2634,
     "mrp": 3029,
@@ -2329,7 +2456,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 5745 (Karanwal Sec. 5745)",
@@ -2338,7 +2467,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5745. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 1430,
     "mrp": 1644,
@@ -2368,7 +2497,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 6608 (Karanwal Sec. 6608)",
@@ -2377,7 +2508,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6608. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 557,
     "mrp": 640,
@@ -2407,7 +2538,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 6613 (Karanwal Sec. 6613)",
@@ -2416,7 +2549,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6613. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 675,
     "mrp": 776,
@@ -2446,7 +2579,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 6769 (Karanwal Sec. 6769)",
@@ -2455,7 +2590,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6769. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 1997,
     "mrp": 2296,
@@ -2485,7 +2620,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 6776 (Karanwal Sec. 6776)",
@@ -2494,7 +2631,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6776. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 2162,
     "mrp": 2486,
@@ -2524,7 +2661,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 4951 (Karanwal Sec. 4951)",
@@ -2533,7 +2672,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4951. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 1572,
     "mrp": 1807,
@@ -2563,7 +2702,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 5012 (Karanwal Sec. 5012)",
@@ -2572,7 +2713,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5012. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 651,
     "mrp": 748,
@@ -2602,7 +2743,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 4981 (Karanwal Sec. 4981)",
@@ -2611,7 +2754,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4981. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 2280,
     "mrp": 2622,
@@ -2641,7 +2784,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Square Box Section 4470 (Karanwal Sec. 4470)",
@@ -2650,7 +2795,7 @@ export const fallbackProducts = [
     "categorySlug": "square-tubes",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4470. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_square-tubes.png"
     ],
     "price": 2020,
     "mrp": 2323,
@@ -2680,7 +2825,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_square-tubes.png",
+    "catalogPage": 22
   },
   {
     "name": "Door Section 4002 (Karanwal Sec. 4002)",
@@ -2689,7 +2836,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4002. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 415,
     "mrp": 477,
@@ -2719,7 +2866,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 610 (Karanwal Sec. 610)",
@@ -2728,7 +2877,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 610. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 604,
     "mrp": 694,
@@ -2758,7 +2907,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 3003 (Karanwal Sec. 3003)",
@@ -2767,7 +2918,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3003. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 439,
     "mrp": 504,
@@ -2797,7 +2948,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 6008 (Karanwal Sec. 6008)",
@@ -2806,7 +2959,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6008. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 557,
     "mrp": 640,
@@ -2836,7 +2989,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 5033 (Karanwal Sec. 5033)",
@@ -2845,7 +3000,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5033. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 1147,
     "mrp": 1319,
@@ -2875,7 +3030,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 8006 (Karanwal Sec. 8006)",
@@ -2884,7 +3041,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 8006. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 510,
     "mrp": 586,
@@ -2914,7 +3071,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 8012 (Karanwal Sec. 8012)",
@@ -2923,7 +3082,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 8012. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 651,
     "mrp": 748,
@@ -2953,7 +3112,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 4502 (Karanwal Sec. 4502)",
@@ -2962,7 +3123,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4502. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 415,
     "mrp": 477,
@@ -2992,7 +3153,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 0582 (Karanwal Sec. 0582)",
@@ -3001,7 +3164,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 0582. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 2303,
     "mrp": 2648,
@@ -3031,7 +3194,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 3676 (Karanwal Sec. 3676)",
@@ -3040,7 +3205,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3676. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 2162,
     "mrp": 2486,
@@ -3070,7 +3235,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 3214 (Karanwal Sec. 3214)",
@@ -3079,7 +3246,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3214. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 699,
     "mrp": 803,
@@ -3109,7 +3276,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 3117 (Karanwal Sec. 3117)",
@@ -3118,7 +3287,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3117. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 769,
     "mrp": 884,
@@ -3148,7 +3317,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 3244 (Karanwal Sec. 3244)",
@@ -3157,7 +3328,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3244. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 1407,
     "mrp": 1618,
@@ -3187,7 +3358,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Door Section 3506 (Karanwal Sec. 3506)",
@@ -3196,7 +3369,7 @@ export const fallbackProducts = [
     "categorySlug": "door-window-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3506. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_door-window-sections.png"
     ],
     "price": 510,
     "mrp": 586,
@@ -3226,7 +3399,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_door-window-sections.png",
+    "catalogPage": 29
   },
   {
     "name": "Sliding Profile 5390 (Karanwal Sec. 5390)",
@@ -3235,7 +3410,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5390. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 2492,
     "mrp": 2865,
@@ -3265,7 +3440,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 1993 (Karanwal Sec. 1993)",
@@ -3274,7 +3451,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 1993. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 2563,
     "mrp": 2947,
@@ -3304,7 +3481,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 1995 (Karanwal Sec. 1995)",
@@ -3313,7 +3492,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 1995. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 2610,
     "mrp": 3001,
@@ -3343,7 +3522,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 1997 (Karanwal Sec. 1997)",
@@ -3352,7 +3533,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 1997. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 2657,
     "mrp": 3055,
@@ -3382,7 +3563,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 1998 (Karanwal Sec. 1998)",
@@ -3391,7 +3574,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 1998. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 2681,
     "mrp": 3083,
@@ -3421,7 +3604,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 1999 (Karanwal Sec. 1999)",
@@ -3430,7 +3615,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 1999. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 2705,
     "mrp": 3110,
@@ -3460,7 +3645,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 3262 (Karanwal Sec. 3262)",
@@ -3469,7 +3656,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3262. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 1831,
     "mrp": 2105,
@@ -3499,7 +3686,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 1896 (Karanwal Sec. 1896)",
@@ -3508,7 +3697,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 1896. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 2634,
     "mrp": 3029,
@@ -3538,7 +3727,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 1936 (Karanwal Sec. 1936)",
@@ -3547,7 +3738,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 1936. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 1218,
     "mrp": 1400,
@@ -3577,7 +3768,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 6001 (Karanwal Sec. 6001)",
@@ -3586,7 +3779,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 6001. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 392,
     "mrp": 450,
@@ -3616,7 +3809,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 4186 (Karanwal Sec. 4186)",
@@ -3625,7 +3820,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4186. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 2398,
     "mrp": 2757,
@@ -3655,7 +3850,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 1901 (Karanwal Sec. 1901)",
@@ -3664,7 +3861,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 1901. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 392,
     "mrp": 450,
@@ -3694,7 +3891,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 5011 (Karanwal Sec. 5011)",
@@ -3703,7 +3902,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5011. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 628,
     "mrp": 722,
@@ -3733,7 +3932,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 3307 (Karanwal Sec. 3307)",
@@ -3742,7 +3943,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3307. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 533,
     "mrp": 612,
@@ -3772,7 +3973,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 9021 (Karanwal Sec. 9021)",
@@ -3781,7 +3984,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 9021. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 864,
     "mrp": 993,
@@ -3811,7 +4014,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Sliding Profile 3992 (Karanwal Sec. 3992)",
@@ -3820,7 +4025,7 @@ export const fallbackProducts = [
     "categorySlug": "sliding-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3992. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_sliding-sections.png"
     ],
     "price": 2539,
     "mrp": 2919,
@@ -3850,7 +4055,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_sliding-sections.png",
+    "catalogPage": 44
   },
   {
     "name": "Slim Partition Profile 4019 (Karanwal Sec. 4019)",
@@ -3859,7 +4066,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4019. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 817,
     "mrp": 939,
@@ -3889,7 +4096,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 3772 (Karanwal Sec. 3772)",
@@ -3898,7 +4107,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3772. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 2067,
     "mrp": 2377,
@@ -3928,7 +4137,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 3770 (Karanwal Sec. 3770)",
@@ -3937,7 +4148,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3770. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 2020,
     "mrp": 2323,
@@ -3967,7 +4178,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 3773 (Karanwal Sec. 3773)",
@@ -3976,7 +4189,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3773. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 2091,
     "mrp": 2404,
@@ -4006,7 +4219,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 3775 (Karanwal Sec. 3775)",
@@ -4015,7 +4230,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3775. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 2138,
     "mrp": 2458,
@@ -4045,7 +4260,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 3771 (Karanwal Sec. 3771)",
@@ -4054,7 +4271,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3771. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 2044,
     "mrp": 2350,
@@ -4084,7 +4301,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 2598 (Karanwal Sec. 2598)",
@@ -4093,7 +4312,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 2598. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 2681,
     "mrp": 3083,
@@ -4123,7 +4342,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 4510 (Karanwal Sec. 4510)",
@@ -4132,7 +4353,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4510. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 604,
     "mrp": 694,
@@ -4162,7 +4383,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 8810 (Karanwal Sec. 8810)",
@@ -4171,7 +4394,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 8810. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 604,
     "mrp": 694,
@@ -4201,7 +4424,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 4529 (Karanwal Sec. 4529)",
@@ -4210,7 +4435,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4529. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 1053,
     "mrp": 1210,
@@ -4240,7 +4465,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 3582 (Karanwal Sec. 3582)",
@@ -4249,7 +4476,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3582. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 2303,
     "mrp": 2648,
@@ -4279,7 +4506,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Slim Partition Profile 8020 (Karanwal Sec. 8020)",
@@ -4288,7 +4517,7 @@ export const fallbackProducts = [
     "categorySlug": "slim-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 8020. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_slim-profiles.png"
     ],
     "price": 840,
     "mrp": 965,
@@ -4318,7 +4547,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_slim-profiles.png",
+    "catalogPage": 57
   },
   {
     "name": "Domal Profile 4434 (Karanwal Sec. 4434)",
@@ -4327,7 +4558,7 @@ export const fallbackProducts = [
     "categorySlug": "domal-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4434. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_domal-sections.png"
     ],
     "price": 1171,
     "mrp": 1346,
@@ -4357,7 +4588,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_domal-sections.png",
+    "catalogPage": 64
   },
   {
     "name": "Domal Profile 4432 (Karanwal Sec. 4432)",
@@ -4366,7 +4599,7 @@ export const fallbackProducts = [
     "categorySlug": "domal-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4432. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_domal-sections.png"
     ],
     "price": 1123,
     "mrp": 1291,
@@ -4396,7 +4629,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_domal-sections.png",
+    "catalogPage": 64
   },
   {
     "name": "Domal Profile 4431 (Karanwal Sec. 4431)",
@@ -4405,7 +4640,7 @@ export const fallbackProducts = [
     "categorySlug": "domal-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4431. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_domal-sections.png"
     ],
     "price": 1100,
     "mrp": 1265,
@@ -4435,7 +4670,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_domal-sections.png",
+    "catalogPage": 64
   },
   {
     "name": "Domal Profile 4433 (Karanwal Sec. 4433)",
@@ -4444,7 +4681,7 @@ export const fallbackProducts = [
     "categorySlug": "domal-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4433. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_domal-sections.png"
     ],
     "price": 1147,
     "mrp": 1319,
@@ -4474,7 +4711,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_domal-sections.png",
+    "catalogPage": 64
   },
   {
     "name": "Domal Profile 4776 (Karanwal Sec. 4776)",
@@ -4483,7 +4722,7 @@ export const fallbackProducts = [
     "categorySlug": "domal-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4776. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_domal-sections.png"
     ],
     "price": 2162,
     "mrp": 2486,
@@ -4513,7 +4752,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_domal-sections.png",
+    "catalogPage": 64
   },
   {
     "name": "Domal Profile 4777 (Karanwal Sec. 4777)",
@@ -4522,7 +4763,7 @@ export const fallbackProducts = [
     "categorySlug": "domal-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4777. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_domal-sections.png"
     ],
     "price": 2185,
     "mrp": 2512,
@@ -4552,7 +4793,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_domal-sections.png",
+    "catalogPage": 64
   },
   {
     "name": "Domal Profile 4813 (Karanwal Sec. 4813)",
@@ -4561,7 +4804,7 @@ export const fallbackProducts = [
     "categorySlug": "domal-sections",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4813. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_domal-sections.png"
     ],
     "price": 675,
     "mrp": 776,
@@ -4591,7 +4834,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_domal-sections.png",
+    "catalogPage": 64
   },
   {
     "name": "Curtain Wall 3311 (Karanwal Sec. 3311)",
@@ -4600,7 +4845,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3311. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 628,
     "mrp": 722,
@@ -4630,7 +4875,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 3313 (Karanwal Sec. 3313)",
@@ -4639,7 +4886,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3313. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 675,
     "mrp": 776,
@@ -4669,7 +4916,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 4272 (Karanwal Sec. 4272)",
@@ -4678,7 +4927,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4272. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 2067,
     "mrp": 2377,
@@ -4708,7 +4957,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 3695 (Karanwal Sec. 3695)",
@@ -4717,7 +4968,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3695. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 2610,
     "mrp": 3001,
@@ -4747,7 +4998,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 3331 (Karanwal Sec. 3331)",
@@ -4756,7 +5009,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3331. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 1100,
     "mrp": 1265,
@@ -4786,7 +5039,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 4421 (Karanwal Sec. 4421)",
@@ -4795,7 +5050,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4421. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 864,
     "mrp": 993,
@@ -4825,7 +5080,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 5118 (Karanwal Sec. 5118)",
@@ -4834,7 +5091,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5118. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 793,
     "mrp": 911,
@@ -4864,7 +5121,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 4924 (Karanwal Sec. 4924)",
@@ -4873,7 +5132,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4924. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 935,
     "mrp": 1075,
@@ -4903,7 +5162,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 5609 (Karanwal Sec. 5609)",
@@ -4912,7 +5173,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5609. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 581,
     "mrp": 668,
@@ -4942,7 +5203,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 4890 (Karanwal Sec. 4890)",
@@ -4951,7 +5214,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4890. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 2492,
     "mrp": 2865,
@@ -4981,7 +5244,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 5492 (Karanwal Sec. 5492)",
@@ -4990,7 +5255,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5492. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 2539,
     "mrp": 2919,
@@ -5020,7 +5285,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 5940 (Karanwal Sec. 5940)",
@@ -5029,7 +5296,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5940. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 1312,
     "mrp": 1508,
@@ -5059,7 +5326,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 5934 (Karanwal Sec. 5934)",
@@ -5068,7 +5337,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5934. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 1171,
     "mrp": 1346,
@@ -5098,7 +5367,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 4705 (Karanwal Sec. 4705)",
@@ -5107,7 +5378,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4705. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 486,
     "mrp": 558,
@@ -5137,7 +5408,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Curtain Wall 5581 (Karanwal Sec. 5581)",
@@ -5146,7 +5419,7 @@ export const fallbackProducts = [
     "categorySlug": "curtain-walls",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5581. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_curtain-walls.png"
     ],
     "price": 2280,
     "mrp": 2622,
@@ -5176,7 +5449,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_curtain-walls.png",
+    "catalogPage": 66
   },
   {
     "name": "Railing Profile 4183 (Karanwal Sec. 4183)",
@@ -5185,7 +5460,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4183. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 2327,
     "mrp": 2676,
@@ -5215,7 +5490,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4184 (Karanwal Sec. 4184)",
@@ -5224,7 +5501,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4184. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 2351,
     "mrp": 2703,
@@ -5254,7 +5531,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4291 (Karanwal Sec. 4291)",
@@ -5263,7 +5542,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4291. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 2516,
     "mrp": 2893,
@@ -5293,7 +5572,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4416 (Karanwal Sec. 4416)",
@@ -5302,7 +5583,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4416. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 746,
     "mrp": 857,
@@ -5332,7 +5613,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4548 (Karanwal Sec. 4548)",
@@ -5341,7 +5624,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4548. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1501,
     "mrp": 1726,
@@ -5371,7 +5654,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4547 (Karanwal Sec. 4547)",
@@ -5380,7 +5665,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4547. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1477,
     "mrp": 1698,
@@ -5410,7 +5695,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 5129 (Karanwal Sec. 5129)",
@@ -5419,7 +5706,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5129. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1053,
     "mrp": 1210,
@@ -5449,7 +5736,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4458 (Karanwal Sec. 4458)",
@@ -5458,7 +5747,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4458. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1737,
     "mrp": 1997,
@@ -5488,7 +5777,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4516 (Karanwal Sec. 4516)",
@@ -5497,7 +5788,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4516. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 746,
     "mrp": 857,
@@ -5527,7 +5818,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 5264 (Karanwal Sec. 5264)",
@@ -5536,7 +5829,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5264. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1879,
     "mrp": 2160,
@@ -5566,7 +5859,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 3689 (Karanwal Sec. 3689)",
@@ -5575,7 +5870,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3689. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 2469,
     "mrp": 2839,
@@ -5605,7 +5900,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4801 (Karanwal Sec. 4801)",
@@ -5614,7 +5911,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4801. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 392,
     "mrp": 450,
@@ -5644,7 +5941,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4356 (Karanwal Sec. 4356)",
@@ -5653,7 +5952,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4356. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1690,
     "mrp": 1943,
@@ -5683,7 +5982,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 5130 (Karanwal Sec. 5130)",
@@ -5692,7 +5993,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5130. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1076,
     "mrp": 1237,
@@ -5722,7 +6023,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4122 (Karanwal Sec. 4122)",
@@ -5731,7 +6034,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4122. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 887,
     "mrp": 1020,
@@ -5761,7 +6064,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 16
+    "numReviews": 16,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4134 (Karanwal Sec. 4134)",
@@ -5770,7 +6075,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4134. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1171,
     "mrp": 1346,
@@ -5800,7 +6105,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 17
+    "numReviews": 17,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4069 (Karanwal Sec. 4069)",
@@ -5809,7 +6116,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4069. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1997,
     "mrp": 2296,
@@ -5839,7 +6146,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 4333 (Karanwal Sec. 4333)",
@@ -5848,7 +6157,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 4333. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1147,
     "mrp": 1319,
@@ -5878,7 +6187,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 3621 (Karanwal Sec. 3621)",
@@ -5887,7 +6198,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3621. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 864,
     "mrp": 993,
@@ -5917,7 +6228,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 3870 (Karanwal Sec. 3870)",
@@ -5926,7 +6239,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3870. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 2020,
     "mrp": 2323,
@@ -5956,7 +6269,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Railing Profile 5566 (Karanwal Sec. 5566)",
@@ -5965,7 +6280,7 @@ export const fallbackProducts = [
     "categorySlug": "railing-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 5566. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_railing-profiles.png"
     ],
     "price": 1926,
     "mrp": 2214,
@@ -5995,7 +6310,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_railing-profiles.png",
+    "catalogPage": 120
   },
   {
     "name": "Solar Profile 2651 (Karanwal Sec. 2651)",
@@ -6004,7 +6321,7 @@ export const fallbackProducts = [
     "categorySlug": "solar-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 2651. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_solar-profiles.png"
     ],
     "price": 1572,
     "mrp": 1807,
@@ -6034,7 +6351,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 10
+    "numReviews": 10,
+    "drawingUrl": "/drawings/cat_solar-profiles.png",
+    "catalogPage": 160
   },
   {
     "name": "Solar Profile 2654 (Karanwal Sec. 2654)",
@@ -6043,7 +6362,7 @@ export const fallbackProducts = [
     "categorySlug": "solar-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 2654. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_solar-profiles.png"
     ],
     "price": 1643,
     "mrp": 1889,
@@ -6073,7 +6392,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": true,
     "rating": 4.8,
-    "numReviews": 11
+    "numReviews": 11,
+    "drawingUrl": "/drawings/cat_solar-profiles.png",
+    "catalogPage": 160
   },
   {
     "name": "Solar Profile 2652 (Karanwal Sec. 2652)",
@@ -6082,7 +6403,7 @@ export const fallbackProducts = [
     "categorySlug": "solar-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 2652. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_solar-profiles.png"
     ],
     "price": 1595,
     "mrp": 1834,
@@ -6112,7 +6433,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 12
+    "numReviews": 12,
+    "drawingUrl": "/drawings/cat_solar-profiles.png",
+    "catalogPage": 160
   },
   {
     "name": "Solar Profile 2655 (Karanwal Sec. 2655)",
@@ -6121,7 +6444,7 @@ export const fallbackProducts = [
     "categorySlug": "solar-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 2655. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_solar-profiles.png"
     ],
     "price": 1666,
     "mrp": 1915,
@@ -6151,7 +6474,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 13
+    "numReviews": 13,
+    "drawingUrl": "/drawings/cat_solar-profiles.png",
+    "catalogPage": 160
   },
   {
     "name": "Solar Profile 3827 (Karanwal Sec. 3827)",
@@ -6160,7 +6485,7 @@ export const fallbackProducts = [
     "categorySlug": "solar-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 3827. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_solar-profiles.png"
     ],
     "price": 1005,
     "mrp": 1155,
@@ -6190,7 +6515,9 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 14
+    "numReviews": 14,
+    "drawingUrl": "/drawings/cat_solar-profiles.png",
+    "catalogPage": 160
   },
   {
     "name": "Solar Profile 2656 (Karanwal Sec. 2656)",
@@ -6199,7 +6526,7 @@ export const fallbackProducts = [
     "categorySlug": "solar-profiles",
     "description": "Official Karanwal Aluminium Traders 2026 Catalogue Profile Section 2656. Engineered in high-tensile 6063-T6 alloy with consistent wall thickness and certified structural compliance (IS 733 / ASTM B221). Available in Mill Finish, Anodized, and Powder Coated.",
     "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      "/drawings/cat_solar-profiles.png"
     ],
     "price": 1690,
     "mrp": 1943,
@@ -6229,6 +6556,8 @@ export const fallbackProducts = [
     ],
     "isFeatured": false,
     "rating": 4.8,
-    "numReviews": 15
+    "numReviews": 15,
+    "drawingUrl": "/drawings/cat_solar-profiles.png",
+    "catalogPage": 160
   }
 ];

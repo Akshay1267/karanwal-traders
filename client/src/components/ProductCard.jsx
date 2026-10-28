@@ -71,15 +71,15 @@ export default function ProductCard({ product }) {
       </div>
 
       {/* Product Image with Zoom */}
-      <Link to={`/product/${product.slug}`} className="block relative aspect-4/3 overflow-hidden bg-[#FAF7F2]">
+      <Link to={`/product/${product.slug}`} className="block relative aspect-4/3 overflow-hidden bg-white border-b border-[#E6DFD5] flex items-center justify-center p-2">
         <img
           src={mainImage}
           alt={product.name}
           loading="lazy"
           onError={(e) => { e.target.onerror = null; e.target.src = "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80"; }}
-          className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500 ease-out"
+          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+        <span className="absolute bottom-2 right-2 text-[9px] bg-[#2B2623]/80 text-white font-mono px-2 py-0.5 rounded backdrop-blur-xs font-semibold">CAD Drawing</span>
       </Link>
 
       {/* Card Content */}

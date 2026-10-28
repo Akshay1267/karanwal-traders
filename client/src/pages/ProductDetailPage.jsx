@@ -118,7 +118,7 @@ export default function ProductDetailPage() {
             <img
               src={selectedImage}
               alt={product.name}
-              className="w-full h-full object-cover object-center"
+              className="max-w-full max-h-full object-contain"
             />
             {product.specs?.alloyGrade && (
               <span className="absolute top-4 left-4 bg-[#2B2623]/90 backdrop-blur-xs text-white text-xs font-bold px-3 py-1 rounded-lg">
@@ -321,6 +321,15 @@ export default function ProductDetailPage() {
       <div className="bg-white rounded-3xl border border-[#E6DFD5] p-6 sm:p-8 shadow-xs">
         <div className="flex border-b border-gray-100 gap-6 text-sm font-semibold mb-6">
           <button
+            onClick={() => setActiveTab("blueprint")}
+            className={`pb-3 transition-colors cursor-pointer flex items-center gap-1.5 ${
+              activeTab === "blueprint" ? "border-b-2 border-[#C08457] text-[#C08457]" : "text-gray-500 hover:text-black"
+            }`}
+          >
+            <span>Catalogue Engineering Blueprint</span>
+            <span className="text-[10px] bg-amber-100 text-amber-900 font-bold px-1.5 py-0.5 rounded">PDF</span>
+          </button>
+          <button
             onClick={() => setActiveTab("specs")}
             className={`pb-3 transition-colors cursor-pointer ${
               activeTab === "specs" ? "border-b-2 border-[#C08457] text-[#C08457]" : "text-gray-500 hover:text-black"
@@ -345,6 +354,38 @@ export default function ProductDetailPage() {
             Tax & Logistics Policy
           </button>
         </div>
+
+        {activeTab === "blueprint" && (
+          <div className="space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 rounded-2xl bg-[#FAF7F2] border border-[#E6DFD5]">
+              <div>
+                <h4 className="font-serif text-base font-bold text-[#2B2623]">
+                  Official Catalogue Profile Sheet &bull; {product.category?.name || "Extrusions"}
+                </h4>
+                <p className="text-xs text-[#554C46] mt-0.5">
+                  Extracted directly from Karanwal Aluminium Traders 2026 Catalogue (IS 733 / ASTM B221 Certified).
+                </p>
+              </div>
+              <a
+                href="/catalogue.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#2B2623] hover:bg-[#C08457] text-white text-xs font-semibold uppercase tracking-wider transition-colors shadow-sm cursor-pointer"
+              >
+                <FileText className="w-4 h-4 text-[#C08457]" />
+                <span>Open 300P Catalogue PDF</span>
+              </a>
+            </div>
+
+            <div className="rounded-2xl border border-[#E6DFD5] overflow-hidden bg-white p-4 flex justify-center shadow-inner">
+              <img
+                src={product.images?.[0] || "/drawings/cat_angles.png"}
+                alt="Engineering Drawing Blueprint"
+                className="max-w-full max-h-[800px] object-contain rounded-xl shadow-xs border border-gray-100"
+              />
+            </div>
+          </div>
+        )}
 
         {activeTab === "specs" && (
           <div className="space-y-4">
