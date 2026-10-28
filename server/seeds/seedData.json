@@ -1,0 +1,1784 @@
+{
+  "categories": [
+    {
+      "name": "Aluminium Sheets",
+      "slug": "aluminium-sheets",
+      "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+      "description": "Commercial & industrial sheets in 1050, 1100, 3003, and 5052 alloys for fabrication and automotive stamping.",
+      "displayOrder": 1
+    },
+    {
+      "name": "Aluminium Plates",
+      "slug": "aluminium-plates",
+      "image": "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80",
+      "description": "Precision tooling & structural plates in 6061-T6, 5083 marine grade, and 7075-T651 aerospace grade.",
+      "displayOrder": 2
+    },
+    {
+      "name": "Aluminium Coils & Rolls",
+      "slug": "aluminium-coils-rolls",
+      "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80",
+      "description": "Continuous rolled strip coils for roofing, transformer winding, and high-speed stamping.",
+      "displayOrder": 3
+    },
+    {
+      "name": "Aluminium Chequered / Diamond Plates",
+      "slug": "chequered-diamond-plates",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+      "description": "Anti-slip 5-bar and diamond pattern tread plates for flooring, vehicle footrests, and stairs.",
+      "displayOrder": 4
+    },
+    {
+      "name": "Aluminium Foils",
+      "slug": "aluminium-foils",
+      "image": "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80",
+      "description": "Pharmaceutical blister foil, industrial HVAC fin stock foil, and container packaging foils.",
+      "displayOrder": 5
+    },
+    {
+      "name": "Aluminium Round Bars / Rods",
+      "slug": "round-bars-rods",
+      "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+      "description": "Solid extruded and cold-drawn round bars in 6063-T6, 6082-T6, 2014-T6 for CNC components.",
+      "displayOrder": 6
+    },
+    {
+      "name": "Aluminium Square & Flat Bars",
+      "slug": "square-flat-bars",
+      "image": "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80",
+      "description": "Electrical EC busbars, structural brackets, and precision square/flat bars.",
+      "displayOrder": 7
+    },
+    {
+      "name": "Aluminium Pipes & Tubes",
+      "slug": "pipes-tubes",
+      "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80",
+      "description": "Round tubes, square hollow sections (SHS), and rectangular tubes (RHS) for scaffolding and frames.",
+      "displayOrder": 8
+    },
+    {
+      "name": "Aluminium Angles, Channels & Beams",
+      "slug": "angles-channels-beams",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+      "description": "Structural equal angles, unequal angles, U-channels, tee sections, and I-beams in alloy 6061 and 6063.",
+      "displayOrder": 9
+    },
+    {
+      "name": "Aluminium Extrusion Profiles",
+      "slug": "extrusion-profiles",
+      "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+      "description": "Modular 4040 T-slot profiles, solar panel mounting rails, and architectural window profiles.",
+      "displayOrder": 10
+    },
+    {
+      "name": "Aluminium Wires & Wire Rods",
+      "slug": "wires-wire-rods",
+      "image": "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80",
+      "description": "TIG/MIG welding wire spools (ER4043, ER5356) and EC grade continuous cast wire rods.",
+      "displayOrder": 11
+    },
+    {
+      "name": "Aluminium Perforated & Expanded Sheets",
+      "slug": "perforated-expanded-sheets",
+      "image": "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80",
+      "description": "Ventilation grilles, acoustic cladding panels, and decorative expanded diamond mesh screens.",
+      "displayOrder": 12
+    },
+    {
+      "name": "Aluminium Ingots & Billets",
+      "slug": "ingots-billets",
+      "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80",
+      "description": "Primary aluminium ingots (99.7% purity), foundry ingots ADC12, and 6063 extrusion billets.",
+      "displayOrder": 13
+    },
+    {
+      "name": "Aluminium Scrap",
+      "slug": "aluminium-scrap",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+      "description": "Sorted industrial scrap including Taint Tabor, Twitch, 6063 Extrusions, and clean wire scrap.",
+      "displayOrder": 14
+    },
+    {
+      "name": "Fasteners & Accessories",
+      "slug": "fasteners-accessories",
+      "image": "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+      "description": "Blind pop rivets, T-nuts, corner angle brackets, and heavy duty architectural butt hinges.",
+      "displayOrder": 15
+    }
+  ],
+  "products": [
+    {
+      "name": "Aluminium Sheet 1050-H14 (Pure Commercial)",
+      "slug": "aluminium-sheet-1050-h14-pure-commercial",
+      "sku": "ALU-SHT-1050-H14",
+      "categorySlug": "aluminium-sheets",
+      "description": "Industrial high-performance Aluminium Sheet 1050-H14 (Pure Commercial) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 265,
+      "mrp": 295,
+      "unit": "kg",
+      "stock": 2400,
+      "specs": {
+        "alloyGrade": "1050",
+        "temper": "H14",
+        "thickness": "1.2 mm",
+        "width": "1220 mm",
+        "length": "2440 mm",
+        "finish": "Mill Finish",
+        "standard": "IS 737 / ASTM B209",
+        "weight": "9.65 kg/sheet"
+      },
+      "applications": [
+        "Flashings",
+        "Food containers",
+        "Reflectors",
+        "General fabrication"
+      ],
+      "tags": [
+        "Aluminium",
+        "1050",
+        "Sheets"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 12
+    },
+    {
+      "name": "Aluminium Sheet 3003-H14 (Manganese Alloy)",
+      "slug": "aluminium-sheet-3003-h14-manganese-alloy",
+      "sku": "ALU-SHT-3003-H14",
+      "categorySlug": "aluminium-sheets",
+      "description": "Industrial high-performance Aluminium Sheet 3003-H14 (Manganese Alloy) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 275,
+      "mrp": 310,
+      "unit": "kg",
+      "stock": 1800,
+      "specs": {
+        "alloyGrade": "3003",
+        "temper": "H14",
+        "thickness": "2.0 mm",
+        "width": "1250 mm",
+        "length": "2500 mm",
+        "finish": "Mill Finish",
+        "standard": "ASTM B209",
+        "weight": "16.88 kg/sheet"
+      },
+      "applications": [
+        "Fuel tanks",
+        "Trailer siding",
+        "Roofing panels",
+        "Heat exchangers"
+      ],
+      "tags": [
+        "Aluminium",
+        "3003",
+        "Sheets"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 13
+    },
+    {
+      "name": "Aluminium Sheet 5052-H32 (Marine Grade)",
+      "slug": "aluminium-sheet-5052-h32-marine-grade",
+      "sku": "ALU-SHT-5052-H32",
+      "categorySlug": "aluminium-sheets",
+      "description": "Industrial high-performance Aluminium Sheet 5052-H32 (Marine Grade) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 310,
+      "mrp": 350,
+      "unit": "kg",
+      "stock": 1250,
+      "specs": {
+        "alloyGrade": "5052",
+        "temper": "H32",
+        "thickness": "3.0 mm",
+        "width": "1500 mm",
+        "length": "3000 mm",
+        "finish": "Smooth Mill Finish",
+        "standard": "ASTM B209 / EN 573-3",
+        "weight": "36.18 kg/sheet"
+      },
+      "applications": [
+        "Marine vessels",
+        "Truck cabs",
+        "Pressure vessels",
+        "Electrical enclosures"
+      ],
+      "tags": [
+        "Aluminium",
+        "5052",
+        "Sheets"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 14
+    },
+    {
+      "name": "Aluminium Plate 6061-T6 (Structural Tooling Plate)",
+      "slug": "aluminium-plate-6061-t6-structural-tooling-plate",
+      "sku": "ALU-PLT-6061-T6",
+      "categorySlug": "aluminium-plates",
+      "description": "Industrial high-performance Aluminium Plate 6061-T6 (Structural Tooling Plate) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 320,
+      "mrp": 360,
+      "unit": "kg",
+      "stock": 3500,
+      "specs": {
+        "alloyGrade": "6061",
+        "temper": "T6",
+        "thickness": "12 mm",
+        "width": "1250 mm",
+        "length": "2500 mm",
+        "finish": "Precision Sawn & Milled",
+        "standard": "ASTM B209 / AMS 4027",
+        "weight": "101.25 kg/plate"
+      },
+      "applications": [
+        "Jigs and fixtures",
+        "Machine bases",
+        "Aerospace components",
+        "Hydraulic manifolds"
+      ],
+      "tags": [
+        "Aluminium",
+        "6061",
+        "Plates"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 15
+    },
+    {
+      "name": "Aluminium Plate 5083-H111 (Heavy Marine Plate)",
+      "slug": "aluminium-plate-5083-h111-heavy-marine-plate",
+      "sku": "ALU-PLT-5083-H111",
+      "categorySlug": "aluminium-plates",
+      "description": "Industrial high-performance Aluminium Plate 5083-H111 (Heavy Marine Plate) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 335,
+      "mrp": 380,
+      "unit": "kg",
+      "stock": 950,
+      "specs": {
+        "alloyGrade": "5083",
+        "temper": "H111",
+        "thickness": "25 mm",
+        "width": "1500 mm",
+        "length": "3000 mm",
+        "finish": "Ultrasonic Tested Class A",
+        "standard": "DNV / Lloyd's / ASTM B209",
+        "weight": "300.38 kg/plate"
+      },
+      "applications": [
+        "Ship hulls",
+        "LNG cryogenic tanks",
+        "Rail wagons",
+        "Defense armor"
+      ],
+      "tags": [
+        "Aluminium",
+        "5083",
+        "Plates"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 16
+    },
+    {
+      "name": "Aluminium Plate 7075-T651 (Aerospace Hard Alloy)",
+      "slug": "aluminium-plate-7075-t651-aerospace-hard-alloy",
+      "sku": "ALU-PLT-7075-T651",
+      "categorySlug": "aluminium-plates",
+      "description": "Industrial high-performance Aluminium Plate 7075-T651 (Aerospace Hard Alloy) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 520,
+      "mrp": 590,
+      "unit": "kg",
+      "stock": 620,
+      "specs": {
+        "alloyGrade": "7075",
+        "temper": "T651",
+        "thickness": "30 mm",
+        "width": "1000 mm",
+        "length": "2000 mm",
+        "finish": "Precision Ground",
+        "standard": "AMS 4045 / ASTM B209",
+        "weight": "168.60 kg/plate"
+      },
+      "applications": [
+        "Aircraft bulkheads",
+        "Military missile components",
+        "Racing gears",
+        "Mold cores"
+      ],
+      "tags": [
+        "Aluminium",
+        "7075",
+        "Plates"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 17
+    },
+    {
+      "name": "Aluminium Slit Coil 1100 (Roofing & Cladding)",
+      "slug": "aluminium-slit-coil-1100-roofing-cladding",
+      "sku": "ALU-COIL-1100-05",
+      "categorySlug": "aluminium-coils-rolls",
+      "description": "Industrial high-performance Aluminium Slit Coil 1100 (Roofing & Cladding) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 260,
+      "mrp": 290,
+      "unit": "kg",
+      "stock": 5000,
+      "specs": {
+        "alloyGrade": "1100",
+        "temper": "H14",
+        "thickness": "0.5 mm",
+        "width": "600 mm",
+        "length": "Continuous",
+        "finish": "Bright Cold Rolled",
+        "standard": "IS 737",
+        "weight": "Coil ID 508mm"
+      },
+      "applications": [
+        "Pipe jacketing",
+        "Flashings",
+        "Ductwork jacketing"
+      ],
+      "tags": [
+        "Aluminium",
+        "1100",
+        "Coils"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 18
+    },
+    {
+      "name": "Aluminium Color Coated Coil (PVDF Polycoat)",
+      "slug": "aluminium-color-coated-coil-pvdf-polycoat",
+      "sku": "ALU-COIL-PVDF-3003",
+      "categorySlug": "aluminium-coils-rolls",
+      "description": "Industrial high-performance Aluminium Color Coated Coil (PVDF Polycoat) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 340,
+      "mrp": 385,
+      "unit": "kg",
+      "stock": 3200,
+      "specs": {
+        "alloyGrade": "3003",
+        "temper": "H16",
+        "thickness": "0.7 mm",
+        "width": "1220 mm",
+        "length": "Continuous Roll",
+        "finish": "PVDF Metallic Silver",
+        "standard": "AAMA 2605",
+        "weight": "1.89 kg/m2"
+      },
+      "applications": [
+        "ACP panels",
+        "Architectural facades",
+        "Modern roofing"
+      ],
+      "tags": [
+        "Aluminium",
+        "3003",
+        "Coils"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 19
+    },
+    {
+      "name": "Aluminium Transformer Winding Strip Coil",
+      "slug": "aluminium-transformer-winding-strip-coil",
+      "sku": "ALU-COIL-EC-STRIP",
+      "categorySlug": "aluminium-coils-rolls",
+      "description": "Industrial high-performance Aluminium Transformer Winding Strip Coil precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 285,
+      "mrp": 320,
+      "unit": "kg",
+      "stock": 4200,
+      "specs": {
+        "alloyGrade": "1070 EC",
+        "temper": "O / Annealed",
+        "thickness": "1.5 mm",
+        "width": "250 mm",
+        "length": "Coil",
+        "finish": "Deburred Round Edge",
+        "standard": "IEC 60317",
+        "weight": "61.8% IACS"
+      },
+      "applications": [
+        "Power transformers",
+        "Distribution reactors",
+        "Welding transformers"
+      ],
+      "tags": [
+        "Aluminium",
+        "1070 EC",
+        "Coils"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 20
+    },
+    {
+      "name": "Aluminium 5-Bar Chequered Tread Plate",
+      "slug": "aluminium-5-bar-chequered-tread-plate",
+      "sku": "ALU-CHQ-5BAR-5052",
+      "categorySlug": "chequered-diamond-plates",
+      "description": "Industrial high-performance Aluminium 5-Bar Chequered Tread Plate precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 295,
+      "mrp": 330,
+      "unit": "kg",
+      "stock": 2200,
+      "specs": {
+        "alloyGrade": "5052",
+        "temper": "H32",
+        "thickness": "3.0 mm base",
+        "width": "1220 mm",
+        "length": "2440 mm",
+        "finish": "Bright 5-Bar Embossed",
+        "standard": "ASTM B632 / IS 737",
+        "weight": "25.8 kg/sheet"
+      },
+      "applications": [
+        "Truck footrests",
+        "Fire engine walkaways",
+        "Elevator floors",
+        "Ramps"
+      ],
+      "tags": [
+        "Aluminium",
+        "5052",
+        "Chequered"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 21
+    },
+    {
+      "name": "Aluminium Diamond Tread Plate 3003",
+      "slug": "aluminium-diamond-tread-plate-3003",
+      "sku": "ALU-CHQ-DIAMOND-3003",
+      "categorySlug": "chequered-diamond-plates",
+      "description": "Industrial high-performance Aluminium Diamond Tread Plate 3003 precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 305,
+      "mrp": 345,
+      "unit": "kg",
+      "stock": 1400,
+      "specs": {
+        "alloyGrade": "3003",
+        "temper": "H22",
+        "thickness": "2.0 mm",
+        "width": "1250 mm",
+        "length": "2500 mm",
+        "finish": "Polished Mirror Diamond",
+        "standard": "ASTM B632",
+        "weight": "18.2 kg/sheet"
+      },
+      "applications": [
+        "Toolbox lining",
+        "Gym walls",
+        "Vehicle panels",
+        "Kickplates"
+      ],
+      "tags": [
+        "Aluminium",
+        "3003",
+        "Chequered"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 22
+    },
+    {
+      "name": "Heavy Duty Chequered Plate 6061-T6",
+      "slug": "heavy-duty-chequered-plate-6061-t6",
+      "sku": "ALU-CHQ-6061-6MM",
+      "categorySlug": "chequered-diamond-plates",
+      "description": "Industrial high-performance Heavy Duty Chequered Plate 6061-T6 precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 345,
+      "mrp": 390,
+      "unit": "kg",
+      "stock": 850,
+      "specs": {
+        "alloyGrade": "6061",
+        "temper": "T6",
+        "thickness": "6.0 mm",
+        "width": "1250 mm",
+        "length": "2500 mm",
+        "finish": "Industrial Mill Chequered",
+        "standard": "ASTM B632",
+        "weight": "54.5 kg/sheet"
+      },
+      "applications": [
+        "Heavy machinery platforms",
+        "Port gangways",
+        "Offshore rig walkways"
+      ],
+      "tags": [
+        "Aluminium",
+        "6061",
+        "Chequered"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 23
+    },
+    {
+      "name": "Aluminium Blister Packaging Foil (Pharma 8011)",
+      "slug": "aluminium-blister-packaging-foil-pharma-8011",
+      "sku": "ALU-FOIL-8011-PHARMA",
+      "categorySlug": "aluminium-foils",
+      "description": "Industrial high-performance Aluminium Blister Packaging Foil (Pharma 8011) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 360,
+      "mrp": 410,
+      "unit": "kg",
+      "stock": 2800,
+      "specs": {
+        "alloyGrade": "8011",
+        "temper": "H18",
+        "thickness": "0.025 mm (25 Micron)",
+        "width": "210 mm",
+        "length": "1000m Reel",
+        "finish": "Primer & HSL Coated",
+        "standard": "US FDA / USP",
+        "weight": "68 g/m2"
+      },
+      "applications": [
+        "Capsule & tablet packaging",
+        "Sterile pharmaceutical barrier"
+      ],
+      "tags": [
+        "Aluminium",
+        "8011",
+        "Foils"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 24
+    },
+    {
+      "name": "Industrial HVAC Fin Stock Foil 1100",
+      "slug": "industrial-hvac-fin-stock-foil-1100",
+      "sku": "ALU-FOIL-HVAC-1100",
+      "categorySlug": "aluminium-foils",
+      "description": "Industrial high-performance Industrial HVAC Fin Stock Foil 1100 precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 320,
+      "mrp": 360,
+      "unit": "kg",
+      "stock": 3100,
+      "specs": {
+        "alloyGrade": "1100",
+        "temper": "H22",
+        "thickness": "0.095 mm (95 Micron)",
+        "width": "350 mm",
+        "length": "Reel",
+        "finish": "Hydrophilic Blue Coating",
+        "standard": "ASTM B479",
+        "weight": "0.26 kg/m2"
+      },
+      "applications": [
+        "Chiller coils",
+        "Automotive radiators",
+        "Split AC evaporators"
+      ],
+      "tags": [
+        "Aluminium",
+        "1100",
+        "Foils"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 25
+    },
+    {
+      "name": "Aluminium Heavy Container Foil 3003",
+      "slug": "aluminium-heavy-container-foil-3003",
+      "sku": "ALU-FOIL-CONT-3003",
+      "categorySlug": "aluminium-foils",
+      "description": "Industrial high-performance Aluminium Heavy Container Foil 3003 precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 290,
+      "mrp": 330,
+      "unit": "kg",
+      "stock": 2600,
+      "specs": {
+        "alloyGrade": "3003",
+        "temper": "H24",
+        "thickness": "0.065 mm (65 Micron)",
+        "width": "450 mm",
+        "length": "Jumbo Coil",
+        "finish": "Food Grade DOS Coated",
+        "standard": "ISO 9001 / FSSAI",
+        "weight": "Custom"
+      },
+      "applications": [
+        "Food trays",
+        "Baking pans",
+        "Airline meal containers"
+      ],
+      "tags": [
+        "Aluminium",
+        "3003",
+        "Foils"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 26
+    },
+    {
+      "name": "Aluminium Round Bar 6082-T6 (Structural Machining)",
+      "slug": "aluminium-round-bar-6082-t6-structural-machining",
+      "sku": "ALU-ROD-6082-T6",
+      "categorySlug": "round-bars-rods",
+      "description": "Industrial high-performance Aluminium Round Bar 6082-T6 (Structural Machining) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 285,
+      "mrp": 320,
+      "unit": "kg",
+      "stock": 4500,
+      "specs": {
+        "alloyGrade": "6082",
+        "temper": "T6",
+        "thickness": "50 mm Dia",
+        "width": "50 mm",
+        "length": "3000 mm / 3 Metres",
+        "finish": "Cold Drawn & Centreless Ground",
+        "standard": "IS 733 / BS EN 755-3",
+        "weight": "5.30 kg/m"
+      },
+      "applications": [
+        "Suspension components",
+        "Cylinder rods",
+        "Threaded rods",
+        "Couplings"
+      ],
+      "tags": [
+        "Aluminium",
+        "6082",
+        "Round"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 27
+    },
+    {
+      "name": "Aluminium Round Bar 6063-T6 (Architectural)",
+      "slug": "aluminium-round-bar-6063-t6-architectural",
+      "sku": "ALU-ROD-6063-T6",
+      "categorySlug": "round-bars-rods",
+      "description": "Industrial high-performance Aluminium Round Bar 6063-T6 (Architectural) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 265,
+      "mrp": 295,
+      "unit": "kg",
+      "stock": 3800,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "T6",
+        "thickness": "25 mm Dia",
+        "width": "25 mm",
+        "length": "3650 mm",
+        "finish": "Anodizing Quality Mill",
+        "standard": "ASTM B221",
+        "weight": "1.32 kg/m"
+      },
+      "applications": [
+        "Balustrades",
+        "Door handles",
+        "Lighting armatures",
+        "Display racks"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Round"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 28
+    },
+    {
+      "name": "Aluminium Round Bar 2014-T6 (Duralumin High Duty)",
+      "slug": "aluminium-round-bar-2014-t6-duralumin-high-duty",
+      "sku": "ALU-ROD-2014-T6",
+      "categorySlug": "round-bars-rods",
+      "description": "Industrial high-performance Aluminium Round Bar 2014-T6 (Duralumin High Duty) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 430,
+      "mrp": 490,
+      "unit": "kg",
+      "stock": 1100,
+      "specs": {
+        "alloyGrade": "2014",
+        "temper": "T6",
+        "thickness": "75 mm Dia",
+        "width": "75 mm",
+        "length": "2000 mm",
+        "finish": "Turned & Polished",
+        "standard": "AMS 4121 / IS 733",
+        "weight": "12.37 kg/m"
+      },
+      "applications": [
+        "Aircraft landing gears",
+        "Defense ordnance shells",
+        "Drive shafts"
+      ],
+      "tags": [
+        "Aluminium",
+        "2014",
+        "Round"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 29
+    },
+    {
+      "name": "Aluminium Busbar Flat Bar 6101-T6 (Electrical EC)",
+      "slug": "aluminium-busbar-flat-bar-6101-t6-electrical-ec",
+      "sku": "ALU-FLT-6101-50X10",
+      "categorySlug": "square-flat-bars",
+      "description": "Industrial high-performance Aluminium Busbar Flat Bar 6101-T6 (Electrical EC) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 280,
+      "mrp": 315,
+      "unit": "kg",
+      "stock": 3100,
+      "specs": {
+        "alloyGrade": "6101",
+        "temper": "T6",
+        "thickness": "10 mm",
+        "width": "50 mm",
+        "length": "4000 mm",
+        "finish": "Full Radiused Corner Mill",
+        "standard": "IS 5082 / IEC 60105",
+        "weight": "1.35 kg/m (57% IACS)"
+      },
+      "applications": [
+        "LT/HT switchgear panels",
+        "Substation bus ducts",
+        "Electrolysis plants"
+      ],
+      "tags": [
+        "Aluminium",
+        "6101",
+        "Square"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 30
+    },
+    {
+      "name": "Aluminium Square Bar 6061-T6 (25mm x 25mm)",
+      "slug": "aluminium-square-bar-6061-t6-25mm-x-25mm",
+      "sku": "ALU-SQR-6061-25",
+      "categorySlug": "square-flat-bars",
+      "description": "Industrial high-performance Aluminium Square Bar 6061-T6 (25mm x 25mm) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 310,
+      "mrp": 350,
+      "unit": "kg",
+      "stock": 1950,
+      "specs": {
+        "alloyGrade": "6061",
+        "temper": "T6",
+        "thickness": "25 mm",
+        "width": "25 mm",
+        "length": "3650 mm",
+        "finish": "Sharp Edge Extruded",
+        "standard": "ASTM B221",
+        "weight": "1.69 kg/m"
+      },
+      "applications": [
+        "Linear motion supports",
+        "Precision fixtures",
+        "Automated robotic cells"
+      ],
+      "tags": [
+        "Aluminium",
+        "6061",
+        "Square"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 31
+    },
+    {
+      "name": "Aluminium Flat Bar 6063-T6 (100mm x 6mm)",
+      "slug": "aluminium-flat-bar-6063-t6-100mm-x-6mm",
+      "sku": "ALU-FLT-6063-100X6",
+      "categorySlug": "square-flat-bars",
+      "description": "Industrial high-performance Aluminium Flat Bar 6063-T6 (100mm x 6mm) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 275,
+      "mrp": 305,
+      "unit": "kg",
+      "stock": 2200,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "T6",
+        "thickness": "6 mm",
+        "width": "100 mm",
+        "length": "3650 mm",
+        "finish": "Clean Extruded",
+        "standard": "IS 1285",
+        "weight": "1.62 kg/m"
+      },
+      "applications": [
+        "Architectural fascias",
+        "Cladding battens",
+        "Solar clamp plates"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Square"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 32
+    },
+    {
+      "name": "Aluminium Round Pipe 6063-T6 (50mm OD x 2mm Wall)",
+      "slug": "aluminium-round-pipe-6063-t6-50mm-od-x-2mm-wall",
+      "sku": "ALU-TUBE-RND-50X2",
+      "categorySlug": "pipes-tubes",
+      "description": "Industrial high-performance Aluminium Round Pipe 6063-T6 (50mm OD x 2mm Wall) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 285,
+      "mrp": 325,
+      "unit": "kg",
+      "stock": 3400,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "T6",
+        "thickness": "2.0 mm wall",
+        "width": "50 mm Outer Dia",
+        "length": "6000 mm / 6 Metres",
+        "finish": "Bright Extruded / Mill",
+        "standard": "ASTM B241 / IS 1285",
+        "weight": "0.814 kg/m"
+      },
+      "applications": [
+        "Staircase handrails",
+        "Irrigation pipe",
+        "Tent poles",
+        "Furniture frames"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Pipes"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 33
+    },
+    {
+      "name": "Aluminium Square Hollow Section 50x50x3mm (SHS)",
+      "slug": "aluminium-square-hollow-section-50x50x3mm-shs",
+      "sku": "ALU-TUBE-SHS-50X50",
+      "categorySlug": "pipes-tubes",
+      "description": "Industrial high-performance Aluminium Square Hollow Section 50x50x3mm (SHS) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 295,
+      "mrp": 335,
+      "unit": "kg",
+      "stock": 2900,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "T6",
+        "thickness": "3.0 mm wall",
+        "width": "50 mm x 50 mm",
+        "length": "6000 mm / 6 Metres",
+        "finish": "Smooth Anodizable Finish",
+        "standard": "BS EN 755-9",
+        "weight": "1.52 kg/m"
+      },
+      "applications": [
+        "Glass partition walls",
+        "Cleanroom structures",
+        "Solar racking",
+        "Pergolas"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Pipes"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 34
+    },
+    {
+      "name": "Aluminium Rectangular Tube 100x50x3mm (RHS)",
+      "slug": "aluminium-rectangular-tube-100x50x3mm-rhs",
+      "sku": "ALU-TUBE-RHS-100X50",
+      "categorySlug": "pipes-tubes",
+      "description": "Industrial high-performance Aluminium Rectangular Tube 100x50x3mm (RHS) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 300,
+      "mrp": 340,
+      "unit": "kg",
+      "stock": 1800,
+      "specs": {
+        "alloyGrade": "6061",
+        "temper": "T6",
+        "thickness": "3.0 mm",
+        "width": "100 mm x 50 mm",
+        "length": "6000 mm",
+        "finish": "Mill Finish",
+        "standard": "ASTM B221",
+        "weight": "2.33 kg/m"
+      },
+      "applications": [
+        "Facade subframes",
+        "Industrial trailers",
+        "Overhead gantry beams"
+      ],
+      "tags": [
+        "Aluminium",
+        "6061",
+        "Pipes"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 35
+    },
+    {
+      "name": "Aluminium Equal Angle 50x50x5mm (L-Section)",
+      "slug": "aluminium-equal-angle-50x50x5mm-l-section",
+      "sku": "ALU-ANG-EQ-50X50",
+      "categorySlug": "angles-channels-beams",
+      "description": "Industrial high-performance Aluminium Equal Angle 50x50x5mm (L-Section) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 275,
+      "mrp": 310,
+      "unit": "kg",
+      "stock": 2800,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "T6",
+        "thickness": "5.0 mm",
+        "width": "50 mm x 50 mm",
+        "length": "6000 mm",
+        "finish": "Mill Finish",
+        "standard": "IS 3954 / ASTM B308",
+        "weight": "1.28 kg/m"
+      },
+      "applications": [
+        "Cable tray supports",
+        "Step edging",
+        "Structural trusses",
+        "Equipment skids"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Angles,"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 36
+    },
+    {
+      "name": "Aluminium U-Channel 75x38x4mm",
+      "slug": "aluminium-u-channel-75x38x4mm",
+      "sku": "ALU-CHN-75X38",
+      "categorySlug": "angles-channels-beams",
+      "description": "Industrial high-performance Aluminium U-Channel 75x38x4mm precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 285,
+      "mrp": 325,
+      "unit": "kg",
+      "stock": 2100,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "T6",
+        "thickness": "4.0 mm",
+        "width": "75 mm web x 38 mm flange",
+        "length": "6000 mm",
+        "finish": "Clean Extruded",
+        "standard": "IS 3954",
+        "weight": "1.54 kg/m"
+      },
+      "applications": [
+        "Glass balustrade base channel",
+        "Conveyor bed side rails",
+        "Sliding door guides"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Angles,"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 12
+    },
+    {
+      "name": "Aluminium Structural I-Beam 100x50mm",
+      "slug": "aluminium-structural-i-beam-100x50mm",
+      "sku": "ALU-BEAM-I-100X50",
+      "categorySlug": "angles-channels-beams",
+      "description": "Industrial high-performance Aluminium Structural I-Beam 100x50mm precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 330,
+      "mrp": 375,
+      "unit": "kg",
+      "stock": 1200,
+      "specs": {
+        "alloyGrade": "6061",
+        "temper": "T6",
+        "thickness": "5.5 mm web / 7 mm flange",
+        "width": "100 mm depth x 50 mm flange",
+        "length": "6000 mm",
+        "finish": "Heavy Duty Mill",
+        "standard": "ASTM B308",
+        "weight": "3.75 kg/m"
+      },
+      "applications": [
+        "Bridge decking joists",
+        "Overhead crane tracks",
+        "Cleanroom mezzanine floors"
+      ],
+      "tags": [
+        "Aluminium",
+        "6061",
+        "Angles,"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 13
+    },
+    {
+      "name": "Industrial 4040 T-Slot Modular Profile (Silver Anodized)",
+      "slug": "industrial-4040-t-slot-modular-profile-silver-anodized",
+      "sku": "ALU-EXT-TSLOT-4040",
+      "categorySlug": "extrusion-profiles",
+      "description": "Industrial high-performance Industrial 4040 T-Slot Modular Profile (Silver Anodized) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 850,
+      "mrp": 990,
+      "unit": "piece",
+      "stock": 450,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "T5/T6",
+        "thickness": "Slot width 8.2 mm",
+        "width": "40 mm x 40 mm",
+        "length": "3000 mm",
+        "finish": "Natural Anodized 15 Micron",
+        "standard": "DIN EN 12020-2",
+        "weight": "1.75 kg/m (5.25 kg/pc)"
+      },
+      "applications": [
+        "CNC machine frames",
+        "3D printer chassis",
+        "Workstations",
+        "Robot enclosures"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Extrusion"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 14
+    },
+    {
+      "name": "Solar Panel Mounting Rail Profile (4200mm)",
+      "slug": "solar-panel-mounting-rail-profile-4200mm",
+      "sku": "ALU-EXT-SOLAR-RAIL",
+      "categorySlug": "extrusion-profiles",
+      "description": "Industrial high-performance Solar Panel Mounting Rail Profile (4200mm) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 780,
+      "mrp": 920,
+      "unit": "piece",
+      "stock": 900,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "T6",
+        "thickness": "1.6 mm nominal",
+        "width": "28 mm x 50 mm",
+        "length": "4200 mm",
+        "finish": "Anodized 12-15 Micron",
+        "standard": "MNRE / IEC Standards",
+        "weight": "0.85 kg/m (3.57 kg/pc)"
+      },
+      "applications": [
+        "Rooftop solar PV arrays",
+        "Tin shed solar mounting",
+        "Solar carports"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Extrusion"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 15
+    },
+    {
+      "name": "Slimline 2-Track Sliding Window Frame Profile",
+      "slug": "slimline-2-track-sliding-window-frame-profile",
+      "sku": "ALU-EXT-WIN-2TRK",
+      "categorySlug": "extrusion-profiles",
+      "description": "Industrial high-performance Slimline 2-Track Sliding Window Frame Profile precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 1150,
+      "mrp": 1350,
+      "unit": "piece",
+      "stock": 350,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "T6",
+        "thickness": "1.4 mm wall",
+        "width": "60 mm depth",
+        "length": "4500 mm",
+        "finish": "Champagne Anodized / Powder Coated",
+        "standard": "IS 1948",
+        "weight": "1.12 kg/m"
+      },
+      "applications": [
+        "Residential windows",
+        "Commercial sliding doors",
+        "Balcony glazing"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Extrusion"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 16
+    },
+    {
+      "name": "Aluminium MIG Welding Wire Spool ER4043 (Al-Si 5%)",
+      "slug": "aluminium-mig-welding-wire-spool-er4043-al-si-5",
+      "sku": "ALU-WIRE-MIG-4043-7KG",
+      "categorySlug": "wires-wire-rods",
+      "description": "Industrial high-performance Aluminium MIG Welding Wire Spool ER4043 (Al-Si 5%) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 2450,
+      "mrp": 2850,
+      "unit": "piece",
+      "stock": 140,
+      "specs": {
+        "alloyGrade": "ER4043 (AlSi5)",
+        "temper": "Spring Temper",
+        "thickness": "1.2 mm Dia",
+        "width": "D300 Plastic Spool",
+        "length": "Continuous (7 kg)",
+        "finish": "Shaved Chemically Cleaned",
+        "standard": "AWS A5.10 / ASME SFA-5.10",
+        "weight": "7.0 kg net spool"
+      },
+      "applications": [
+        "Automotive repair",
+        "Bicycle frame welding",
+        "Aluminium tank fabrication"
+      ],
+      "tags": [
+        "Aluminium",
+        "ER4043 (AlSi5)",
+        "Wires"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 17
+    },
+    {
+      "name": "Aluminium TIG Welding Rods ER5356 (Al-Mg 5%)",
+      "slug": "aluminium-tig-welding-rods-er5356-al-mg-5",
+      "sku": "ALU-WIRE-TIG-5356-5KG",
+      "categorySlug": "wires-wire-rods",
+      "description": "Industrial high-performance Aluminium TIG Welding Rods ER5356 (Al-Mg 5%) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 1850,
+      "mrp": 2150,
+      "unit": "bundle",
+      "stock": 90,
+      "specs": {
+        "alloyGrade": "ER5356 (AlMg5)",
+        "temper": "Straight Cut",
+        "thickness": "2.4 mm Dia",
+        "width": "N/A",
+        "length": "1000 mm / 1 Metre Rods",
+        "finish": "Embossed Alloy Stamped",
+        "standard": "AWS A5.10",
+        "weight": "5.0 kg Pack (approx. 400 rods)"
+      },
+      "applications": [
+        "Marine vessel fabrication",
+        "5083 plate welding",
+        "Pressure pipe joints"
+      ],
+      "tags": [
+        "Aluminium",
+        "ER5356 (AlMg5)",
+        "Wires"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 18
+    },
+    {
+      "name": "Aluminium EC Continuous Cast Wire Rod (9.5mm)",
+      "slug": "aluminium-ec-continuous-cast-wire-rod-9-5mm",
+      "sku": "ALU-ROD-EC-95",
+      "categorySlug": "wires-wire-rods",
+      "description": "Industrial high-performance Aluminium EC Continuous Cast Wire Rod (9.5mm) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 245,
+      "mrp": 275,
+      "unit": "kg",
+      "stock": 8000,
+      "specs": {
+        "alloyGrade": "EC 1350",
+        "temper": "H12 / As Cast",
+        "thickness": "9.5 mm Dia",
+        "width": "Coil",
+        "length": "Jumbo Coil",
+        "finish": "Smooth Drawing Finish",
+        "standard": "IS 5484 / ASTM B233",
+        "weight": "Coils 1.5 - 2.5 Tonnes"
+      },
+      "applications": [
+        "Overhead transmission conductors",
+        "Building wire cables",
+        "Earthing strips"
+      ],
+      "tags": [
+        "Aluminium",
+        "EC 1350",
+        "Wires"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 19
+    },
+    {
+      "name": "Aluminium Perforated Sheet (5mm Staggered Round)",
+      "slug": "aluminium-perforated-sheet-5mm-staggered-round",
+      "sku": "ALU-PERF-5MM-RND",
+      "categorySlug": "perforated-expanded-sheets",
+      "description": "Industrial high-performance Aluminium Perforated Sheet (5mm Staggered Round) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 360,
+      "mrp": 410,
+      "unit": "kg",
+      "stock": 850,
+      "specs": {
+        "alloyGrade": "3003",
+        "temper": "H14",
+        "thickness": "1.5 mm",
+        "width": "1220 mm",
+        "length": "2440 mm",
+        "finish": "Deburred Mill Finish",
+        "standard": "DIN 24041",
+        "weight": "7.25 kg/sheet"
+      },
+      "applications": [
+        "Speaker grilles",
+        "Acoustic ceiling baffles",
+        "Generator canopy louvers"
+      ],
+      "tags": [
+        "Aluminium",
+        "3003",
+        "Perforated"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 20
+    },
+    {
+      "name": "Aluminium Expanded Metal Mesh (Diamond 25x50)",
+      "slug": "aluminium-expanded-metal-mesh-diamond-25x50",
+      "sku": "ALU-EXP-MESH-25X50",
+      "categorySlug": "perforated-expanded-sheets",
+      "description": "Industrial high-performance Aluminium Expanded Metal Mesh (Diamond 25x50) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 380,
+      "mrp": 430,
+      "unit": "kg",
+      "stock": 620,
+      "specs": {
+        "alloyGrade": "1050",
+        "temper": "Half Hard",
+        "thickness": "2.0 mm strand",
+        "width": "1200 mm",
+        "length": "2400 mm",
+        "finish": "Natural Raised Mesh",
+        "standard": "ASTM F1267",
+        "weight": "4.8 kg/sheet"
+      },
+      "applications": [
+        "Security window grills",
+        "Architectural building skin",
+        "Filter elements"
+      ],
+      "tags": [
+        "Aluminium",
+        "1050",
+        "Perforated"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 21
+    },
+    {
+      "name": "Architectural Hexagonal Perforated Cladding Panel",
+      "slug": "architectural-hexagonal-perforated-cladding-panel",
+      "sku": "ALU-PERF-HEX-5052",
+      "categorySlug": "perforated-expanded-sheets",
+      "description": "Industrial high-performance Architectural Hexagonal Perforated Cladding Panel precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 440,
+      "mrp": 510,
+      "unit": "kg",
+      "stock": 450,
+      "specs": {
+        "alloyGrade": "5052",
+        "temper": "H32",
+        "thickness": "2.5 mm",
+        "width": "1250 mm",
+        "length": "3000 mm",
+        "finish": "Anodizing Ready Class 1",
+        "standard": "Custom Architectural Spec",
+        "weight": "14.2 kg/sheet"
+      },
+      "applications": [
+        "Ventilated facades",
+        "Shopping mall interiors",
+        "Showroom feature walls"
+      ],
+      "tags": [
+        "Aluminium",
+        "5052",
+        "Perforated"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 22
+    },
+    {
+      "name": "Primary Aluminium Ingot 99.7% Purity (EC/P1020)",
+      "slug": "primary-aluminium-ingot-99-7-purity-ec-p1020",
+      "sku": "ALU-INGOT-P1020",
+      "categorySlug": "ingots-billets",
+      "description": "Industrial high-performance Primary Aluminium Ingot 99.7% Purity (EC/P1020) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 235,
+      "mrp": 260,
+      "unit": "kg",
+      "stock": 15000,
+      "specs": {
+        "alloyGrade": "P1020A (99.7%)",
+        "temper": "As Cast",
+        "thickness": "Standard Ingot",
+        "width": "180 mm",
+        "length": "750 mm",
+        "finish": "Cast Smelter Bar",
+        "standard": "LME Registered / IS 2590",
+        "weight": "20 - 22.5 kg/ingot"
+      },
+      "applications": [
+        "Die casting alloying",
+        "Wire rod continuous casting",
+        "Deoxidizer in steel mills"
+      ],
+      "tags": [
+        "Aluminium",
+        "P1020A (99.7%)",
+        "Ingots"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 23
+    },
+    {
+      "name": "Aluminium Extrusion Billet 6063 (Homogenized Log)",
+      "slug": "aluminium-extrusion-billet-6063-homogenized-log",
+      "sku": "ALU-BILLET-6063-7IN",
+      "categorySlug": "ingots-billets",
+      "description": "Industrial high-performance Aluminium Extrusion Billet 6063 (Homogenized Log) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 248,
+      "mrp": 275,
+      "unit": "kg",
+      "stock": 12000,
+      "specs": {
+        "alloyGrade": "6063",
+        "temper": "Homogenized",
+        "thickness": "7 Inch (178 mm) Dia",
+        "width": "178 mm Dia",
+        "length": "5800 mm Log",
+        "finish": "DC Cast Surface",
+        "standard": "ASTM B221 / EN 755-1",
+        "weight": "Approx. 390 kg/log"
+      },
+      "applications": [
+        "Extrusion press feedstock",
+        "Forging billets"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063",
+        "Ingots"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 24
+    },
+    {
+      "name": "Aluminium Foundry Ingot ADC12 (Pressure Die Casting)",
+      "slug": "aluminium-foundry-ingot-adc12-pressure-die-casting",
+      "sku": "ALU-INGOT-ADC12",
+      "categorySlug": "ingots-billets",
+      "description": "Industrial high-performance Aluminium Foundry Ingot ADC12 (Pressure Die Casting) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 220,
+      "mrp": 245,
+      "unit": "kg",
+      "stock": 9000,
+      "specs": {
+        "alloyGrade": "ADC12",
+        "temper": "Cast Ingot",
+        "thickness": "Trapezoidal Ingot",
+        "width": "120 mm",
+        "length": "600 mm",
+        "finish": "Continuous Ingot Bar",
+        "standard": "JIS H 2118 / IS 617",
+        "weight": "Approx. 6 - 8 kg/bar"
+      },
+      "applications": [
+        "Engine covers",
+        "Gearbox housings",
+        "Power tool casings"
+      ],
+      "tags": [
+        "Aluminium",
+        "ADC12",
+        "Ingots"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 25
+    },
+    {
+      "name": "Clean Aluminium Wire Scrap (Barley / Berry Grade)",
+      "slug": "clean-aluminium-wire-scrap-barley-berry-grade",
+      "sku": "ALU-SCRAP-WIRE-CLEAN",
+      "categorySlug": "aluminium-scrap",
+      "description": "Industrial high-performance Clean Aluminium Wire Scrap (Barley / Berry Grade) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 195,
+      "mrp": 215,
+      "unit": "kg",
+      "stock": 8500,
+      "specs": {
+        "alloyGrade": "99.5% EC Grade",
+        "temper": "Scrap Form",
+        "thickness": "Chopped / Baler Bundled",
+        "width": "N/A",
+        "length": "Compressed Bales",
+        "finish": "Clean Bright Wire",
+        "standard": "ISRI Code: BARLEY",
+        "weight": "350 kg/bale"
+      },
+      "applications": [
+        "Secondary smelters",
+        "Remelt foundries",
+        "Ferro-alloy deoxidation"
+      ],
+      "tags": [
+        "Aluminium",
+        "99.5% EC Grade",
+        "Scrap"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 26
+    },
+    {
+      "name": "Clean 6063 Extrusion Scrap (ISRI Tata / Toto)",
+      "slug": "clean-6063-extrusion-scrap-isri-tata-toto",
+      "sku": "ALU-SCRAP-6063-TATA",
+      "categorySlug": "aluminium-scrap",
+      "description": "Industrial high-performance Clean 6063 Extrusion Scrap (ISRI Tata / Toto) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 188,
+      "mrp": 205,
+      "unit": "kg",
+      "stock": 11000,
+      "specs": {
+        "alloyGrade": "6063 Offcuts",
+        "temper": "Scrap",
+        "thickness": "Cut-offs 100mm - 500mm",
+        "width": "Various",
+        "length": "Loose / Baled",
+        "finish": "Mill Finish Offcuts",
+        "standard": "ISRI Code: TATA",
+        "weight": "Loose or baled"
+      },
+      "applications": [
+        "Billet extrusion remelt casting",
+        "Secondary alloy production"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063 Offcuts",
+        "Scrap"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 27
+    },
+    {
+      "name": "Aluminium Sheet / Utensil Scrap (Taint Tabor)",
+      "slug": "aluminium-sheet-utensil-scrap-taint-tabor",
+      "sku": "ALU-SCRAP-TAINT-TABOR",
+      "categorySlug": "aluminium-scrap",
+      "description": "Industrial high-performance Aluminium Sheet / Utensil Scrap (Taint Tabor) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 172,
+      "mrp": 190,
+      "unit": "kg",
+      "stock": 9500,
+      "specs": {
+        "alloyGrade": "Mixed 1xxx/3xxx",
+        "temper": "Scrap",
+        "thickness": "Sheet Scrap",
+        "width": "Baled",
+        "length": "Baled",
+        "finish": "Sorted Old Sheet",
+        "standard": "ISRI Code: TABOR",
+        "weight": "400kg Bales"
+      },
+      "applications": [
+        "Utensil circles casting",
+        "Commercial ingot manufacturing"
+      ],
+      "tags": [
+        "Aluminium",
+        "Mixed 1xxx/3xxx",
+        "Scrap"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 28
+    },
+    {
+      "name": "Aluminium Blind Pop Rivets (4mm x 12mm, Pack of 1000)",
+      "slug": "aluminium-blind-pop-rivets-4mm-x-12mm-pack-of-1000",
+      "sku": "ALU-ACC-RIVET-4X12",
+      "categorySlug": "fasteners-accessories",
+      "description": "Industrial high-performance Aluminium Blind Pop Rivets (4mm x 12mm, Pack of 1000) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 650,
+      "mrp": 799,
+      "unit": "piece",
+      "stock": 250,
+      "specs": {
+        "alloyGrade": "Al-Mg 2.5%",
+        "temper": "Annealed Body",
+        "thickness": "Grip 6-8 mm",
+        "width": "4.0 mm Body Dia",
+        "length": "12 mm Body Length",
+        "finish": "Bright Clean Polish",
+        "standard": "DIN 7337 / ISO 15977",
+        "weight": "1.4 kg / 1000 pcs"
+      },
+      "applications": [
+        "Sheet metal ducting",
+        "Trailer body panels",
+        "Signage assemblies"
+      ],
+      "tags": [
+        "Aluminium",
+        "Al-Mg 2.5%",
+        "&"
+      ],
+      "isFeatured": true,
+      "rating": 4.8,
+      "numReviews": 29
+    },
+    {
+      "name": "4040 T-Slot Corner Angle Bracket Kit (Pack of 10)",
+      "slug": "4040-t-slot-corner-angle-bracket-kit-pack-of-10",
+      "sku": "ALU-ACC-BRKT-4040",
+      "categorySlug": "fasteners-accessories",
+      "description": "Industrial high-performance 4040 T-Slot Corner Angle Bracket Kit (Pack of 10) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 490,
+      "mrp": 620,
+      "unit": "piece",
+      "stock": 320,
+      "specs": {
+        "alloyGrade": "ADC12 Cast",
+        "temper": "Cast",
+        "thickness": "6 mm rib thickness",
+        "width": "35 mm x 35 mm x 40 mm",
+        "length": "40 mm",
+        "finish": "Shot blasted silver",
+        "standard": "Modular Profile Standard",
+        "weight": "0.85 kg / 10 pcs"
+      },
+      "applications": [
+        "4040 T-slot assembly",
+        "Rigid joint reinforcement"
+      ],
+      "tags": [
+        "Aluminium",
+        "ADC12 Cast",
+        "&"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 30
+    },
+    {
+      "name": "Heavy Duty Architectural Aluminium Butt Hinge (4 Inch)",
+      "slug": "heavy-duty-architectural-aluminium-butt-hinge-4-inch",
+      "sku": "ALU-ACC-HINGE-4IN",
+      "categorySlug": "fasteners-accessories",
+      "description": "Industrial high-performance Heavy Duty Architectural Aluminium Butt Hinge (4 Inch) precision engineered for reliability, tight dimensional tolerances, and high structural integrity. Tested and certified to international material standards.",
+      "images": [
+        "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 320,
+      "mrp": 395,
+      "unit": "piece",
+      "stock": 500,
+      "specs": {
+        "alloyGrade": "6063-T6",
+        "temper": "T6",
+        "thickness": "3.5 mm leaf thickness",
+        "width": "75 mm open",
+        "length": "100 mm (4 Inch)",
+        "finish": "Satin Anodized Silver",
+        "standard": "EN 1935 Grade 11",
+        "weight": "0.22 kg/hinge"
+      },
+      "applications": [
+        "Commercial aluminium doors",
+        "Heavy casement windows"
+      ],
+      "tags": [
+        "Aluminium",
+        "6063-T6",
+        "&"
+      ],
+      "isFeatured": false,
+      "rating": 4.8,
+      "numReviews": 31
+    }
+  ]
+}
