@@ -33,8 +33,11 @@ app.use(helmet({
 const allowedOrigins = [
   "http://localhost:5173",
   "http://127.0.0.1:5173",
-  "http://localhost:3000"
-];
+  "http://localhost:5174",
+  "http://localhost:3000",
+  "https://client-one-self-85.vercel.app",
+  process.env.CLIENT_URL
+].filter(Boolean);
 
 app.use(cors({
   origin: function (origin, callback) {
