@@ -41,13 +41,16 @@ const allowedOrigins = [
 
 app.use(cors({
   origin: function (origin, callback) {
-    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-      callback(null, true);
+    // Allow non-browser requests or matching origins or any vercel preview deployment
+    if (!origin || allowedOrigins.indexOf(origin) !== -1 || origin.endsWith(".vercel.app") || origin.includes("localhost")) {
+      callback(null, origin || true);
     } else {
-      callback(null, true); // Permissive for local dev prototype
+      callback(null, origin || true);
     }
   },
-  credentials: true
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With", "Accept"]
 }));
 
 app.use(cookieParser());
