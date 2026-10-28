@@ -8,7 +8,7 @@ module.exports = {
     tagline: "Industrial Grade Aluminium Raw Materials & Custom Extrusions",
     shortName: "Karanwal Aluminium",
     legalName: "Karanwal Aluminium Traders",
-    cataloguePdfUrl: "https://drive.google.com/file/d/1xX7VKzsl4cxs9f7QtUDbiUSQMg2_j5Uv/view?usp=sharing",
+    cataloguePdfUrl: "/catalogue.pdf",
   },
   owner: {
     name: "Shubh Karanwal",
