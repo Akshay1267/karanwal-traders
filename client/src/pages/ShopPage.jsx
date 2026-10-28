@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import ProductCard from "../components/ProductCard";
 import { productAPI, categoryAPI } from "../services/api";
+import { fallbackCategories, fallbackProducts } from "../data/fallbackData";
 import { useSiteStore } from "../store/useSiteStore";
 
 export default function ShopPage() {
@@ -62,7 +63,7 @@ export default function ShopPage() {
           productAPI.getFilters()
         ]);
         if (catRes.data.success) {
-          setCategories(catRes.data.categories);
+          setCategories(catRes.data.categories?.length > 0 ? catRes.data.categories : fallbackCategories);
         }
         if (filterRes.data.success) {
           setFilterOptions(filterRes.data.filters);
@@ -94,7 +95,7 @@ export default function ShopPage() {
 
         const res = await productAPI.getProducts(params);
         if (res.data.success) {
-          setProducts(res.data.products);
+          setProducts(res.data.products?.length > 0 ? res.data.products : fallbackProducts);
           setTotalPages(res.data.totalPages || 1);
           setTotalCount(res.data.totalCount || 0);
         }

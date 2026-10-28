@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import ProductCard from "../components/ProductCard";
 import { productAPI, categoryAPI } from "../services/api";
+import { fallbackCategories, fallbackProducts } from "../data/fallbackData";
 import { useSiteStore } from "../store/useSiteStore";
 
 export default function HomePage({ onOpenAlloyGuide }) {
@@ -32,17 +33,23 @@ export default function HomePage({ onOpenAlloyGuide }) {
     const fetchData = async () => {
       try {
         const [catRes, prodRes] = await Promise.all([
-          categoryAPI.getCategories(),
-          productAPI.getFeatured()
+          categoryAPI.getCategories().catch(() => ({ data: { success: false } })),
+          productAPI.getFeatured().catch(() => ({ data: { success: false } }))
         ]);
-        if (catRes.data.success) {
+        if (catRes.data?.success && catRes.data?.categories?.length > 0) {
           setCategories(catRes.data.categories);
+        } else {
+          setCategories(fallbackCategories);
         }
-        if (prodRes.data.success) {
+        if (prodRes.data?.success && prodRes.data?.products?.length > 0) {
           setFeaturedProducts(prodRes.data.products);
+        } else {
+          setFeaturedProducts(fallbackProducts);
         }
       } catch (err) {
-        console.error("Failed to load homepage data", err);
+        console.warn("Using offline fallback data:", err.message);
+        setCategories(fallbackCategories);
+        setFeaturedProducts(fallbackProducts);
       } finally {
         setIsLoading(false);
       }
@@ -200,6 +207,7 @@ export default function HomePage({ onOpenAlloyGuide }) {
                   src={cat.image}
                   alt={cat.name}
                   loading="lazy"
+                  onError={(e) => { e.target.onerror = null; e.target.src = "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80"; }}
                   className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500"
                 />
               </div>

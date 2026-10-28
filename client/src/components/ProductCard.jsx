@@ -76,6 +76,7 @@ export default function ProductCard({ product }) {
           src={mainImage}
           alt={product.name}
           loading="lazy"
+          onError={(e) => { e.target.onerror = null; e.target.src = "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80"; }}
           className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500 ease-out"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
