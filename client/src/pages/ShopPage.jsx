@@ -9,12 +9,15 @@ import {
   ChevronLeft,
   ChevronRight,
   Layers,
-  Sparkles
+  Sparkles,
+  Download
 } from "lucide-react";
 import ProductCard from "../components/ProductCard";
 import { productAPI, categoryAPI } from "../services/api";
+import { useSiteStore } from "../store/useSiteStore";
 
 export default function ShopPage() {
+  const { brand } = useSiteStore();
   const [searchParams, setSearchParams] = useSearchParams();
 
   const [products, setProducts] = useState([]);
@@ -149,12 +152,18 @@ export default function ShopPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
       {/* Top Breadcrumb & Page Title */}
-      <div className="mb-6">
-        <span className="text-xs font-semibold text-[#8A94A6]">Home &bull; Material Inventory</span>
-        <h1 className="font-serif text-3xl font-bold text-[#2B2623] mt-1">Aluminium Material Catalogue</h1>
-        <p className="text-xs sm:text-sm text-[#554C46] mt-0.5">
-          Showing {totalCount} certified industrial products ready for dispatch with 18% GST invoicing.
-        </p>
+      <div className="mb-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <span className="text-xs font-semibold text-[#8A94A6]">Home &bull; Material Inventory</span>
+          <h1 className="font-serif text-3xl font-bold text-[#2B2623] mt-1">Aluminium Material Catalogue</h1>
+          <p className="text-xs sm:text-sm text-[#554C46] mt-0.5">
+            Showing {totalCount} certified industrial products ready for dispatch with 18% GST invoicing.
+          </p>
+        </div>
+        <a href={brand.cataloguePdfUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#C08457] to-[#9D643A] hover:opacity-95 text-white font-semibold text-xs tracking-wider uppercase shadow-sm transition-all">
+          <Download className="w-4 h-4" />
+          <span>Download PDF Catalogue</span>
+        </a>
       </div>
 
       {/* Search, Sort, and Mobile Filter Trigger Bar */}

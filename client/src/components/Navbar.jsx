@@ -15,7 +15,9 @@ import {
   Layers,
   LogOut,
   PackageCheck,
-  Sparkles
+  Sparkles,
+  Download,
+  ExternalLink
 } from "lucide-react";
 import { useAuthStore } from "../store/useAuthStore";
 import { useCartStore } from "../store/useCartStore";
@@ -68,7 +70,7 @@ export default function Navbar({ onOpenAlloyGuide }) {
             </span>
           </div>
 
-          <div className="flex items-center gap-5 text-slate-300">
+          <div className="flex items-center gap-4 text-slate-300">
             <a
               href={`tel:${contact.primaryPhone}`}
               className="hover:text-[#C08457] transition-colors flex items-center gap-1.5"
@@ -77,15 +79,28 @@ export default function Navbar({ onOpenAlloyGuide }) {
               <span>{contact.primaryPhone}</span>
             </a>
             <span className="hidden sm:inline text-slate-500">|</span>
+
+            {/* Direct PDF Catalogue Link */}
+            <a
+              href={brand.cataloguePdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 bg-[#C08457]/20 hover:bg-[#C08457] text-amber-200 hover:text-white px-2.5 py-0.5 rounded-full border border-[#C08457]/40 transition-all font-semibold"
+            >
+              <Download className="w-3 h-3" />
+              <span>PDF Catalogue</span>
+            </a>
+
+            <span className="hidden sm:inline text-slate-500">|</span>
             <button
               onClick={() => onOpenAlloyGuide?.()}
-              className="hidden sm:flex items-center gap-1 text-amber-200 hover:text-white transition-colors cursor-pointer"
+              className="hidden sm:flex items-center gap-1 text-slate-300 hover:text-white transition-colors cursor-pointer"
             >
               <Sparkles className="w-3 h-3 text-[#C08457]" />
-              <span>Alloy Technical Guide</span>
+              <span>Alloy Guide</span>
             </button>
             <span className="hidden sm:inline text-slate-500">|</span>
-            <span className="text-[#C08457] font-semibold tracking-wide">18% GST Invoicing</span>
+            <span className="text-[#C08457] font-semibold tracking-wide">18% GST</span>
           </div>
         </div>
       </div>
@@ -102,14 +117,14 @@ export default function Navbar({ onOpenAlloyGuide }) {
           {/* Logo / Brand Name */}
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#C08457] to-[#9D643A] flex items-center justify-center text-white font-bold text-xl shadow-md border border-[#E8C2A0]/40 group-hover:scale-105 transition-transform">
-              <span className="font-serif">Al</span>
+              <span className="font-serif">KA</span>
             </div>
             <div className="flex flex-col">
-              <span className="font-serif text-2xl font-bold tracking-tight text-[#2B2623] group-hover:text-[#C08457] transition-colors">
+              <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-[#2B2623] group-hover:text-[#C08457] transition-colors leading-tight">
                 {brand.name}
               </span>
-              <span className="text-[10px] tracking-widest uppercase font-semibold text-[#8A94A6] -mt-1">
-                Aluminium Trading &bull; Meerut
+              <span className="text-[10px] tracking-widest uppercase font-semibold text-[#8A94A6]">
+                Shubh Karanwal &bull; Saket, Meerut
               </span>
             </div>
           </Link>
@@ -148,12 +163,23 @@ export default function Navbar({ onOpenAlloyGuide }) {
             >
               Catalogue
             </Link>
-            <Link
-              to="/quote"
+
+            {/* Direct Catalogue PDF Link in Nav */}
+            <a
+              href={brand.cataloguePdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#9D643A] hover:text-[#C08457] font-semibold flex items-center gap-1 transition-colors"
             >
-              <FileText className="w-4 h-4" />
-              <span>Bulk Quote</span>
+              <Download className="w-4 h-4 text-[#C08457]" />
+              <span>Download PDF</span>
+            </a>
+
+            <Link
+              to="/quote"
+              className="hover:text-[#C08457] transition-colors"
+            >
+              Bulk Quote
             </Link>
             <Link
               to="/about"
@@ -309,6 +335,22 @@ export default function Navbar({ onOpenAlloyGuide }) {
                 <span>Product Catalogue</span>
                 <span className="text-xs text-[#C08457] font-semibold">15 Categories &rarr;</span>
               </Link>
+
+              {/* Mobile Catalogue PDF */}
+              <a
+                href={brand.cataloguePdfUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="py-2 border-b border-gray-100 flex items-center justify-between text-[#9D643A] font-bold"
+              >
+                <span className="flex items-center gap-2">
+                  <Download className="w-4 h-4 text-[#C08457]" />
+                  Download PDF Catalogue
+                </span>
+                <ExternalLink className="w-3.5 h-3.5 text-gray-400" />
+              </a>
+
               <Link
                 to="/quote"
                 onClick={() => setIsMobileMenuOpen(false)}

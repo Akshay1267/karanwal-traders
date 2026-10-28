@@ -13,7 +13,8 @@ A production-grade, full-stack MERN prototype for **Karanwal Aluminium Traders**
 - **Currency**: Indian Rupee (INR ₹), with prices quoted per kg / piece / metre as applicable
 - **Taxation**: 18% Statutory GST on aluminium materials, calculated separately at checkout with input tax credit (ITC) invoicing
 - **GSTIN**: `09AAACH7492K1Z8`
-- **Contact**: +91 98970 12345 | `sales@karanwaltraders.com`
+- **Contact**: +91 63952 49800 | `sales@karanwaltraders.com`
+- **Product Catalogue**: [Direct Google Drive PDF Catalogue](https://drive.google.com/file/d/1xX7VKzsl4cxs9f7QtUDbiUSQMg2_j5Uv/view?usp=sharing)
 
 ---
 

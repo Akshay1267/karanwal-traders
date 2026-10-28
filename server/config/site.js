@@ -8,6 +8,7 @@ module.exports = {
     tagline: "Industrial Grade Aluminium Raw Materials & Custom Extrusions",
     shortName: "Karanwal Aluminium",
     legalName: "Karanwal Aluminium Traders",
+    cataloguePdfUrl: "https://drive.google.com/file/d/1xX7VKzsl4cxs9f7QtUDbiUSQMg2_j5Uv/view?usp=sharing",
   },
   owner: {
     name: "Shubh Karanwal",
@@ -23,9 +24,9 @@ module.exports = {
       country: "India",
       full: "D-5, Sarvodaya Colony, Saket, Meerut - 250001, Uttar Pradesh, India"
     },
-    phones: ["+91 98970 12345", "+91 98970 67890"],
-    primaryPhone: "+91 98970 12345",
-    whatsapp: "+91 98970 12345",
+    phones: ["+91 63952 49800", "+91 63952 49800"],
+    primaryPhone: "+91 63952 49800",
+    whatsapp: "+91 63952 49800",
     emails: ["sales@karanwaltraders.com", "quotes@karanwaltraders.com", "info@karanwaltraders.com"],
     primaryEmail: "sales@karanwaltraders.com",
     gstin: "09AAACH7492K1Z8",

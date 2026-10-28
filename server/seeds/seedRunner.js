@@ -43,7 +43,7 @@ const seedDB = async () => {
     const adminUser = await User.create({
       name: "Shubh Karanwal",
       email: "admin@alutrade.com",
-      phone: "+91 98970 12345",
+      phone: "+91 63952 49800",
       password: "Admin@123",
       role: "admin",
       companyName: "ALUEX METALS Private Limited",

@@ -6,7 +6,8 @@ export const useSiteStore = create((set) => ({
     name: "Karanwal Aluminium Traders",
     shortName: "Karanwal Aluminium",
     tagline: "Industrial Grade Aluminium Raw Materials & Custom Extrusions",
-    legalName: "Karanwal Aluminium Traders"
+    legalName: "Karanwal Aluminium Traders",
+    cataloguePdfUrl: "https://drive.google.com/file/d/1xX7VKzsl4cxs9f7QtUDbiUSQMg2_j5Uv/view?usp=sharing"
   },
   owner: {
     name: "Shubh Karanwal",
@@ -22,8 +23,8 @@ export const useSiteStore = create((set) => ({
       country: "India",
       full: "D-5, Sarvodaya Colony, Saket, Meerut - 250001, Uttar Pradesh, India"
     },
-    primaryPhone: "+91 98970 12345",
-    whatsapp: "+91 98970 12345",
+    primaryPhone: "+91 63952 49800",
+    whatsapp: "+91 63952 49800",
     primaryEmail: "sales@karanwaltraders.com",
     gstin: "09AAACH7492K1Z8",
     mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13962.339230557404!2d77.7011985926573!3d28.98453443217734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c6443c16285ad%3A0x6b7fa940e4e6f424!2sSaket%2C%20Meerut%2C%20Uttar%20Pradesh%20250001!5e0!3m2!1sen!2sin!4v1711234567890!5m2!1sen!2sin"

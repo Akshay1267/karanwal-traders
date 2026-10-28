@@ -13,7 +13,8 @@ import {
   TrendingUp,
   FileText,
   PhoneCall,
-  Star
+  Star,
+  Download
 } from "lucide-react";
 import ProductCard from "../components/ProductCard";
 import { productAPI, categoryAPI } from "../services/api";
@@ -96,6 +97,10 @@ export default function HomePage({ onOpenAlloyGuide }) {
                   <FileText className="w-4 h-4 text-[#C08457]" />
                   <span>Request Bulk Quote</span>
                 </button>
+                <a href={brand.cataloguePdfUrl} target="_blank" rel="noopener noreferrer" className="px-6 py-3.5 rounded-full bg-amber-500/10 hover:bg-[#C08457] text-[#9D643A] hover:text-white border border-[#C08457]/40 font-semibold text-xs tracking-wider uppercase transition-all shadow-xs flex items-center gap-2 cursor-pointer">
+                  <Download className="w-4 h-4 text-[#C08457]" />
+                  <span>Download PDF Catalogue</span>
+                </a>
               </div>
 
               {/* Trust Metrics Pill Strip */}

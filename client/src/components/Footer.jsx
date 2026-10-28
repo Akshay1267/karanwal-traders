@@ -9,7 +9,8 @@ import {
   Truck,
   Award,
   Scissors,
-  ExternalLink
+  ExternalLink,
+  Download
 } from "lucide-react";
 import { useSiteStore } from "../store/useSiteStore";
 
@@ -131,6 +132,12 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-lg font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2 text-xs text-[#A09891]">
+              <li>
+                <a href={brand.cataloguePdfUrl} target="_blank" rel="noopener noreferrer" className="hover:text-amber-200 text-amber-300 font-semibold transition-colors flex items-center gap-1.5">
+                  <Download className="w-3.5 h-3.5 text-[#C08457]" />
+                  <span>Download Product Catalogue (PDF)</span>
+                </a>
+              </li>
               <li>
                 <Link to="/quote" className="hover:text-[#C08457] transition-colors text-white font-medium">
                   Request Bulk Wholesale Quote
